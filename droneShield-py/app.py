@@ -1,5 +1,6 @@
 ###############################        Defines & Imports       #######################################
 import logging, time, argparse, configparser
+import sys
 #checking
 
 # parser use to get the location of the app
@@ -28,20 +29,11 @@ if len(config.read(CONFIGURATIONS)) == 0:
 
 DRONE_ID = config['drone']['id']
 HOST_IP = config['cloud-app']['ip'] 
-VIDEO_PORT = int(config['cloud-app']['video-port'])
-
-GRAYSCALE = config['video']['grayscale'].lower() == 'true'
-FRAMES_PER_SECOND = int(config['video']['fps'])
-JPEG_QUALITY = int(config['video']['quality'])
-WIDTH = int(config['video']['width'])
-HEIGHT = int(config['video']['height'])
 
 #######################################      Main      ################################################  
 if __name__ == '__main__':
     logging.debug('droneapp has started! THE directory is: %s', APP_DIR)
-    logging.info('FPS: %s Quality: %s Width: %s Height: %s Grayscale: %s',
-                 str(FRAMES_PER_SECOND), str(JPEG_QUALITY), str(WIDTH), str(HEIGHT), GRAYSCALE)           
-    logging.info('Drone ID: %s Video Recipient: %s, %s', str(DRONE_ID), str(HOST_IP), str(VIDEO_PORT))
+  
 # logging.basicConfig(filename='./logs/' + str(time.asctime()) + '.log',
 #                     filemode='w',
 #                     level=logging.DEBUG,
