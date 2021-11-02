@@ -1,0 +1,459 @@
+2021-10-23 15:11:17.272  INFO [PID: 12712] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 12712 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 15:11:17.275  INFO [PID: 12712] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 15:11:18.465  INFO [PID: 12712] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 15:11:18.977  INFO [PID: 12712] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 2.08 seconds (JVM running for 3.028)
+2021-10-23 15:40:17.358  INFO [PID: 16632] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 16632 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 15:40:17.360  INFO [PID: 16632] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 15:40:18.532  INFO [PID: 16632] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 15:40:18.544  INFO [PID: 16632] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 15:40:18.544  INFO [PID: 16632] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 15:40:18.608  INFO [PID: 16632] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 15:40:18.608  INFO [PID: 16632] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1197 ms
+2021-10-23 15:40:18.951  INFO [PID: 16632] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 15:40:19.300  INFO [PID: 16632] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 15:40:19.311  INFO [PID: 16632] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.625 seconds (JVM running for 3.055)
+2021-10-23 15:40:59.138  INFO [PID: 20080] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 20080 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 15:40:59.140  INFO [PID: 20080] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 15:41:00.293  INFO [PID: 20080] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 15:41:00.303  INFO [PID: 20080] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 15:41:00.303  INFO [PID: 20080] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 15:41:00.361  INFO [PID: 20080] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 15:41:00.361  INFO [PID: 20080] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1169 ms
+2021-10-23 15:41:00.682  INFO [PID: 20080] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 15:41:01.010  INFO [PID: 20080] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 15:41:01.021  INFO [PID: 20080] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.558 seconds (JVM running for 2.993)
+2021-10-23 15:41:01.063  INFO [PID: 20080] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 15:41:01.063  INFO [PID: 20080] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 15:41:01.064  INFO [PID: 20080] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-23 16:32:56.867  INFO [PID: 17960] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 17960 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:32:56.869  INFO [PID: 17960] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 16:32:58.096  INFO [PID: 17960] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:32:58.667  INFO [PID: 17960] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 2.18 seconds (JVM running for 3.097)
+2021-10-23 16:33:11.738  INFO [PID: 15924] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 15924 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:33:11.740  INFO [PID: 15924] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 16:33:12.950  INFO [PID: 15924] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 16:33:12.959  INFO [PID: 15924] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 16:33:12.959  INFO [PID: 15924] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 16:33:13.016  INFO [PID: 15924] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 16:33:13.016  INFO [PID: 15924] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1210 ms
+2021-10-23 16:33:13.374  INFO [PID: 15924] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:33:13.722  INFO [PID: 15924] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 16:33:13.732  INFO [PID: 15924] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.693 seconds (JVM running for 3.132)
+2021-10-23 16:33:27.270  INFO [PID: 15924] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 16:33:27.270  INFO [PID: 15924] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 16:33:27.271  INFO [PID: 15924] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-23 16:34:33.293  INFO [PID: 10492] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 10492 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:34:33.295  INFO [PID: 10492] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 16:34:34.403  INFO [PID: 10492] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:34:34.909  INFO [PID: 10492] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 2.02 seconds (JVM running for 3.043)
+2021-10-23 16:34:40.257  INFO [PID: 19628] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 19628 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:34:40.258  INFO [PID: 19628] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 16:34:41.475  INFO [PID: 19628] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 16:34:41.484  INFO [PID: 19628] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 16:34:41.485  INFO [PID: 19628] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 16:34:41.549  INFO [PID: 19628] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 16:34:41.549  INFO [PID: 19628] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1234 ms
+2021-10-23 16:34:41.872  INFO [PID: 19628] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:34:42.245  INFO [PID: 19628] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 16:34:42.257  INFO [PID: 19628] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.659 seconds (JVM running for 3.098)
+2021-10-23 16:35:09.169  INFO [PID: 19628] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 16:35:09.169  INFO [PID: 19628] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 16:35:09.170  INFO [PID: 19628] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-23 16:49:10.461  INFO [PID: 16852] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 16852 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:49:10.463  INFO [PID: 16852] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 16:49:11.506  INFO [PID: 16852] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:49:11.998  INFO [PID: 16852] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.91 seconds (JVM running for 2.833)
+2021-10-23 16:50:20.211  INFO [PID: 13572] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 13572 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:50:20.213  INFO [PID: 13572] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 16:50:21.281  INFO [PID: 13572] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:50:21.797  INFO [PID: 13572] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.962 seconds (JVM running for 2.826)
+2021-10-23 16:50:28.089  INFO [PID: 18104] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 18104 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:50:28.090  INFO [PID: 18104] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 16:50:29.314  INFO [PID: 18104] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 16:50:29.324  INFO [PID: 18104] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 16:50:29.324  INFO [PID: 18104] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 16:50:29.387  INFO [PID: 18104] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 16:50:29.387  INFO [PID: 18104] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1242 ms
+2021-10-23 16:50:29.717  INFO [PID: 18104] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:50:30.033  INFO [PID: 18104] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 16:50:30.043  INFO [PID: 18104] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.584 seconds (JVM running for 3.018)
+2021-10-23 16:52:37.792  INFO [PID: 444] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 444 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:52:37.794  INFO [PID: 444] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 16:52:38.855  INFO [PID: 444] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:52:39.348  INFO [PID: 444] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.886 seconds (JVM running for 2.757)
+2021-10-23 16:56:50.343  INFO [PID: 10136] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 16:56:50.343  INFO [PID: 10136] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 16:56:50.344  INFO [PID: 10136] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-23 16:56:50.410 ERROR [PID: 10136] - [p-nio-80-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.IllegalAccessError: class com.droneshield.cloudapp.controller.BaseController (in unnamed module @0x30c7da1e) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x30c7da1e] with root cause
+
+java.lang.IllegalAccessError: class com.droneshield.cloudapp.controller.BaseController (in unnamed module @0x30c7da1e) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x30c7da1e
+	at com.droneshield.cloudapp.controller.BaseController.indexPage(BaseController.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+2021-10-23 16:58:56.298  INFO [PID: 10048] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 10048 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:58:56.299  INFO [PID: 10048] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 16:58:57.412  INFO [PID: 10048] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:58:57.908  INFO [PID: 10048] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.988 seconds (JVM running for 2.897)
+2021-10-23 16:59:02.429  INFO [PID: 18296] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 18296 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 16:59:02.430  INFO [PID: 18296] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 16:59:03.766  INFO [PID: 18296] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 16:59:03.775  INFO [PID: 18296] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 16:59:03.775  INFO [PID: 18296] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 16:59:03.836  INFO [PID: 18296] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 16:59:03.836  INFO [PID: 18296] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1352 ms
+2021-10-23 16:59:04.199  INFO [PID: 18296] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 16:59:04.572  INFO [PID: 18296] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 16:59:04.583  INFO [PID: 18296] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.819 seconds (JVM running for 3.256)
+2021-10-23 16:59:04.636  INFO [PID: 18296] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 16:59:04.637  INFO [PID: 18296] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 16:59:04.637  INFO [PID: 18296] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-10-23 16:59:04.675 ERROR [PID: 18296] - [p-nio-80-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.IllegalAccessError: class com.droneshield.cloudapp.controller.BaseController (in unnamed module @0x30c7da1e) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x30c7da1e] with root cause
+
+java.lang.IllegalAccessError: class com.droneshield.cloudapp.controller.BaseController (in unnamed module @0x30c7da1e) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x30c7da1e
+	at com.droneshield.cloudapp.controller.BaseController.indexPage(BaseController.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+2021-10-23 16:59:05.522 ERROR [PID: 18296] - [p-nio-80-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.IllegalAccessError: class com.droneshield.cloudapp.controller.BaseController (in unnamed module @0x30c7da1e) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x30c7da1e] with root cause
+
+java.lang.IllegalAccessError: class com.droneshield.cloudapp.controller.BaseController (in unnamed module @0x30c7da1e) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x30c7da1e
+	at com.droneshield.cloudapp.controller.BaseController.indexPage(BaseController.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+2021-10-23 17:00:35.805  INFO [PID: 13484] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 13484 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:00:35.807  INFO [PID: 13484] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 17:00:36.912  INFO [PID: 13484] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:00:37.387  INFO [PID: 13484] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.911 seconds (JVM running for 2.792)
+2021-10-23 17:00:41.605  INFO [PID: 21168] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 21168 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:00:41.607  INFO [PID: 21168] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 17:00:42.829  INFO [PID: 21168] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 17:00:42.838  INFO [PID: 21168] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 17:00:42.838  INFO [PID: 21168] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 17:00:42.900  INFO [PID: 21168] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 17:00:42.900  INFO [PID: 21168] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1215 ms
+2021-10-23 17:00:43.243  INFO [PID: 21168] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:00:43.601  INFO [PID: 21168] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 17:00:43.613  INFO [PID: 21168] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.717 seconds (JVM running for 3.139)
+2021-10-23 17:00:43.682  INFO [PID: 21168] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 17:00:43.682  INFO [PID: 21168] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 17:00:43.682  INFO [PID: 21168] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-10-23 17:04:34.305  INFO [PID: 572] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 572 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:04:34.307  INFO [PID: 572] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 17:04:35.349  INFO [PID: 572] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:04:35.836  INFO [PID: 572] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.856 seconds (JVM running for 2.748)
+2021-10-23 17:04:40.068  INFO [PID: 7716] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 7716 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:04:40.070  INFO [PID: 7716] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 17:04:41.366  INFO [PID: 7716] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 17:04:41.375  INFO [PID: 7716] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 17:04:41.375  INFO [PID: 7716] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 17:04:41.437  INFO [PID: 7716] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 17:04:41.437  INFO [PID: 7716] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1316 ms
+2021-10-23 17:04:41.806  INFO [PID: 7716] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:04:42.146  INFO [PID: 7716] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 17:04:42.158  INFO [PID: 7716] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.741 seconds (JVM running for 3.178)
+2021-10-23 17:04:44.519  INFO [PID: 7716] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 17:04:44.519  INFO [PID: 7716] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 17:04:44.520  INFO [PID: 7716] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-23 17:08:44.966  INFO [PID: 18032] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 18032 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:08:44.968  INFO [PID: 18032] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 17:08:46.061  INFO [PID: 18032] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:08:46.547  INFO [PID: 18032] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.889 seconds (JVM running for 2.763)
+2021-10-23 17:09:16.915  INFO [PID: 17456] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 17456 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:09:16.916  INFO [PID: 17456] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 17:09:17.999  INFO [PID: 17456] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:09:18.499  INFO [PID: 17456] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.928 seconds (JVM running for 2.827)
+2021-10-23 17:11:00.724  INFO [PID: 9496] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 9496 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:11:00.726  INFO [PID: 9496] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 17:11:01.893  INFO [PID: 9496] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:11:02.438  INFO [PID: 9496] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 2.135 seconds (JVM running for 3.219)
+2021-10-23 17:18:34.424  INFO [PID: 10096] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 10096 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:18:34.426  INFO [PID: 10096] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 17:18:35.541  INFO [PID: 10096] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:18:36.027  INFO [PID: 10096] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.946 seconds (JVM running for 2.829)
+2021-10-23 17:18:40.254  INFO [PID: 12660] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 12660 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:18:40.256  INFO [PID: 12660] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 17:18:41.462  INFO [PID: 12660] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 17:18:41.471  INFO [PID: 12660] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 17:18:41.471  INFO [PID: 12660] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 17:18:41.538  INFO [PID: 12660] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 17:18:41.538  INFO [PID: 12660] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1210 ms
+2021-10-23 17:18:41.945  INFO [PID: 12660] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:18:42.354  INFO [PID: 12660] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 17:18:42.367  INFO [PID: 12660] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.785 seconds (JVM running for 3.227)
+2021-10-23 17:18:45.200  INFO [PID: 12660] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 17:18:45.200  INFO [PID: 12660] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 17:18:45.201  INFO [PID: 12660] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-23 17:20:06.180  INFO [PID: 19848] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 19848 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:20:06.183  INFO [PID: 19848] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 17:20:07.248  INFO [PID: 19848] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:20:07.751  INFO [PID: 19848] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.913 seconds (JVM running for 2.786)
+2021-10-23 17:20:12.657  INFO [PID: 12260] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 12260 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 17:20:12.658  INFO [PID: 12260] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 17:20:14.038  INFO [PID: 12260] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 17:20:14.050  INFO [PID: 12260] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 17:20:14.050  INFO [PID: 12260] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 17:20:14.128  INFO [PID: 12260] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 17:20:14.128  INFO [PID: 12260] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1414 ms
+2021-10-23 17:20:14.512  INFO [PID: 12260] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 17:20:14.903  INFO [PID: 12260] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 17:20:14.914  INFO [PID: 12260] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.905 seconds (JVM running for 3.335)
+2021-10-23 17:20:15.474  INFO [PID: 12260] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 17:20:15.474  INFO [PID: 12260] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 17:20:15.474  INFO [PID: 12260] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-10-23 20:01:44.889  INFO [PID: 10188] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 10188 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 20:01:44.891  INFO [PID: 10188] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 20:01:46.154  INFO [PID: 10188] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 20:01:47.035  INFO [PID: 10188] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 2.539 seconds (JVM running for 3.602)
+2021-10-23 20:59:10.257  INFO [PID: 19704] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 19704 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 20:59:10.258  INFO [PID: 19704] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 20:59:11.426  INFO [PID: 19704] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 20:59:12.015  INFO [PID: 19704] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 2.176 seconds (JVM running for 3.169)
+2021-10-23 20:59:29.290  INFO [PID: 2608] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 2608 (C:\Users\Eldar\Documents\droneShield\cloudapp\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp)
+2021-10-23 20:59:29.294  INFO [PID: 2608] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 20:59:30.626  INFO [PID: 2608] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 20:59:30.635  INFO [PID: 2608] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 20:59:30.635  INFO [PID: 2608] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 20:59:30.719  INFO [PID: 2608] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 20:59:30.719  INFO [PID: 2608] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1354 ms
+2021-10-23 20:59:31.312  INFO [PID: 2608] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 20:59:31.829  INFO [PID: 2608] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 20:59:31.843  INFO [PID: 2608] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 3.258 seconds (JVM running for 3.721)
+2021-10-23 20:59:33.291  INFO [PID: 2608] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 20:59:33.291  INFO [PID: 2608] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 20:59:33.292  INFO [PID: 2608] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-23 21:20:37.617  INFO [PID: 19816] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 19816 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp\GroundStation)
+2021-10-23 21:20:37.619  INFO [PID: 19816] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 21:20:38.693  INFO [PID: 19816] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 21:20:39.187  INFO [PID: 19816] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.919 seconds (JVM running for 2.837)
+2021-10-23 21:20:52.250  INFO [PID: 12048] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 12048 (C:\Users\Eldar\Documents\droneShield\cloudapp\GroundStation\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp\GroundStation)
+2021-10-23 21:20:52.252  INFO [PID: 12048] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 21:20:53.373  INFO [PID: 12048] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 21:20:53.381  INFO [PID: 12048] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 21:20:53.381  INFO [PID: 12048] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 21:20:53.447  INFO [PID: 12048] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 21:20:53.447  INFO [PID: 12048] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1143 ms
+2021-10-23 21:20:53.853  INFO [PID: 12048] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 21:20:54.194  INFO [PID: 12048] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 21:20:54.204  INFO [PID: 12048] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.566 seconds (JVM running for 2.983)
+2021-10-23 21:20:55.602  INFO [PID: 12048] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 21:20:55.602  INFO [PID: 12048] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 21:20:55.603  INFO [PID: 12048] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-23 22:33:02.599  INFO [PID: 20756] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 20756 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp\GroundStation)
+2021-10-23 22:33:02.601  INFO [PID: 20756] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-23 22:33:03.654  INFO [PID: 20756] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 22:33:04.143  INFO [PID: 20756] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 1.901 seconds (JVM running for 2.795)
+2021-10-23 22:33:08.736  INFO [PID: 20064] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 20064 (C:\Users\Eldar\Documents\droneShield\cloudapp\GroundStation\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp\GroundStation)
+2021-10-23 22:33:08.738  INFO [PID: 20064] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-23 22:33:09.827  INFO [PID: 20064] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-23 22:33:09.836  INFO [PID: 20064] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-23 22:33:09.837  INFO [PID: 20064] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-23 22:33:09.894  INFO [PID: 20064] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-23 22:33:09.894  INFO [PID: 20064] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1106 ms
+2021-10-23 22:33:10.261  INFO [PID: 20064] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-23 22:33:10.594  INFO [PID: 20064] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-23 22:33:10.605  INFO [PID: 20064] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 2.502 seconds (JVM running for 2.939)
+2021-10-23 22:33:15.763  INFO [PID: 20064] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-23 22:33:15.763  INFO [PID: 20064] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-23 22:33:15.765  INFO [PID: 20064] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-25 20:02:28.095  INFO [PID: 21476] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 21476 (started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp\GroundStation)
+2021-10-25 20:02:28.097  INFO [PID: 21476] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-25 20:02:29.452  INFO [PID: 21476] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-25 20:02:30.153  INFO [PID: 21476] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 2.48 seconds (JVM running for 3.643)
+2021-10-25 20:08:35.080  INFO [PID: 5140] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 5140 (C:\Users\Eldar\Documents\droneShield\cloudapp\GroundStation\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\cloudapp\groundstation)
+2021-10-25 20:08:35.082  INFO [PID: 5140] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-25 20:08:36.639  INFO [PID: 5140] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-25 20:08:36.652  INFO [PID: 5140] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-25 20:08:36.652  INFO [PID: 5140] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-25 20:08:36.730  INFO [PID: 5140] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-25 20:08:36.730  INFO [PID: 5140] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1578 ms
+2021-10-25 20:08:37.152  INFO [PID: 5140] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-25 20:08:37.650  INFO [PID: 5140] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-25 20:08:37.663  INFO [PID: 5140] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 3.48 seconds (JVM running for 4.395)
+2021-10-25 20:08:51.763  INFO [PID: 5140] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-25 20:08:51.764  INFO [PID: 5140] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-25 20:08:51.765  INFO [PID: 5140] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-26 15:42:37.228  INFO [PID: 11480] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Starting CloudappApplicationTests using Java 16.0.1 on DESKTOP-F4TBIKV with PID 11480 (started by Eldar in C:\Users\Eldar\Documents\droneShield\droneShield\GroundStation)
+2021-10-26 15:42:37.230  INFO [PID: 11480] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-26 15:42:38.533  INFO [PID: 11480] - [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-26 15:42:39.146  INFO [PID: 11480] - [    Test worker] c.d.cloudapp.CloudappApplicationTests    : Started CloudappApplicationTests in 2.4 seconds (JVM running for 3.518)
+2021-10-26 15:42:54.026  INFO [PID: 13040] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 13040 (C:\Users\Eldar\Documents\droneShield\droneShield\GroundStation\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\droneShield\GroundStation)
+2021-10-26 15:42:54.028  INFO [PID: 13040] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-26 15:42:55.459  INFO [PID: 13040] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-26 15:42:55.470  INFO [PID: 13040] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 15:42:55.470  INFO [PID: 13040] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-26 15:42:55.550  INFO [PID: 13040] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 15:42:55.550  INFO [PID: 13040] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1456 ms
+2021-10-26 15:42:55.968  INFO [PID: 13040] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-26 15:42:56.728  INFO [PID: 13040] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-26 15:42:56.744  INFO [PID: 13040] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 3.614 seconds (JVM running for 4.568)
+2021-10-26 15:42:57.475  INFO [PID: 13040] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-26 15:42:57.475  INFO [PID: 13040] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-26 15:42:57.475  INFO [PID: 13040] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-10-27 21:31:36.080  INFO [PID: 9860] - [           main] c.d.cloudapp.CloudappApplication         : Starting CloudappApplication using Java 16.0.1 on DESKTOP-F4TBIKV with PID 9860 (C:\Users\Eldar\Documents\droneShield\droneShield\GroundStation\build\libs\cloudapp-0.0.1-SNAPSHOT.jar started by Eldar in C:\Users\Eldar\Documents\droneShield\droneShield\GroundStation)
+2021-10-27 21:31:36.082  INFO [PID: 9860] - [           main] c.d.cloudapp.CloudappApplication         : No active profile set, falling back to default profiles: default
+2021-10-27 21:31:37.618  INFO [PID: 9860] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-10-27 21:31:37.649  INFO [PID: 9860] - [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-27 21:31:37.649  INFO [PID: 9860] - [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-27 21:31:37.819  INFO [PID: 9860] - [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-27 21:31:37.819  INFO [PID: 9860] - [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1665 ms
+2021-10-27 21:31:38.349  INFO [PID: 9860] - [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-27 21:31:39.125  INFO [PID: 9860] - [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-10-27 21:31:39.159  INFO [PID: 9860] - [           main] c.d.cloudapp.CloudappApplication         : Started CloudappApplication in 3.935 seconds (JVM running for 4.949)
+2021-10-27 21:31:44.954  INFO [PID: 9860] - [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-27 21:31:44.954  INFO [PID: 9860] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-27 21:31:44.954  INFO [PID: 9860] - [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
