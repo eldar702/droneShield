@@ -1,0 +1,8 @@
+
+1. first window:
+/arducopter -S -I0 --home -35.363261,149.165230,584,353 --model "+" --speedup 1 --defaults /home/eldar/Desktop/ardupilot/Tools/autotest/default_params/copter.parm
+
+2. second windows:
+		mavproxy.py --master tcp:127.0.0.1:5760 --out udp:127.0.0.1:14550
+
+
