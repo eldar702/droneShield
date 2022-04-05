@@ -22,7 +22,7 @@ def main():
     global mode, vehicle, gnd_speed, laser_is_turn, arm_height
     # Var's declaration:
     area_is_clear = False
-    Laser.first_laser_use()
+
     ####  MAIN LOOP  #####
     while True:
 
@@ -73,23 +73,23 @@ def main():
                 DroneFunc.ChangeMode(vehicle, "GUIDED")
                 mode = 'SEARCHING'
 
-        # #### need to add: mode for searching the balloons
-        # elif mode == "SEARCHING":
-        #
-        # # mode for target in the exact position, so the laser will pointed the detected balloon
-        # elif mode == "targeting":
-        #
-        # # mode for turning on and off the laser
-        # elif mode == "lasering":
-        #     Laser.turn_laser_on_off(laser_is_turn)
-        #     # TODO: create function that keeping the laser on until the balloon
-        #     #       popped, and after TURNOFF the laser AND BACK TO SEARCHING
-        # ###  Mode for: backing to home
-        # elif mode == "BACK":
-        #     # If drone back home - still steady ant wait for the next mission.
-        #     if vehicle.location.global_relative_frame.alt < 1:
-        #         mode = 'GROUND'
-        #         print("Switch to GROUND mode, waiting for new missions")
+        #### need to add: mode for searching the balloons
+        elif mode == "SEARCHING":
+
+        # mode for target in the exact position, so the laser will pointed the detected balloon
+        elif mode == "targeting":
+
+        # mode for turning on and off the laser
+        elif mode == "lasering":
+            Laser.turn_laser_on_off(laser_is_turn)
+            # TODO: create function that keeping the laser on until the balloon
+            #       popped, and after TURNOFF the laser AND BACK TO SEARCHING
+        ###  Mode for: backing to home
+        elif mode == "BACK":
+            # If drone back home - still steady ant wait for the next mission.
+            if vehicle.location.global_relative_frame.alt < 1:
+                mode = 'GROUND'
+                print("Switch to GROUND mode, waiting for new missions")
 
         time.sleep(0.5)
 

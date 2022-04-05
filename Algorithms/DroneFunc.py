@@ -167,3 +167,21 @@ def dummy_yaw_initializer():
         0, 0)
     vehicle.send_mavlink(msg)
     vehicle.flush()
+
+
+def distance_to_size(desire_distance):
+    if desire_distance <= 1:
+        area = 22500
+    elif desire_distance <= 2:
+        area = 5500
+    elif desire_distance <= 3:
+        area = 3000
+    elif desire_distance <= 4:
+        area = 1600
+    elif desire_distance <= 5:
+        area = 1000
+    else:
+        area = 700
+    return area
+
+def values_for_balloon_centered():
