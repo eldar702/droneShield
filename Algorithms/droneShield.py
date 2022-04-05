@@ -7,7 +7,7 @@ import DroneFunc
 ##################################################################################
 #######################          droneShield            ##########################
 ##################################################################################
-
+######   Initialize     ########
 # -- Setup the commanded flying speed
 gnd_speed = 10  # [m/s]
 arm_height = 5
@@ -15,7 +15,7 @@ mode = 'GROUND'
 vehicle = connect('udp:127.0.0.1:14551') # Connect to the vehicle
 print('Connecting...')
 # vehicle = connect('tcp:127.0.0.1:5762', wait_ready=True)
-
+DroneFunc.dummy_yaw_initializer()
 Laser.first_laser_use() # init some stuff for laser use
 laser_is_turn = False
 def main():
