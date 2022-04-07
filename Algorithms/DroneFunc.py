@@ -54,7 +54,7 @@ def clear_mission(vehicle):
 
 # Function: download the  mission
 # Describe: download the user mission, in our case ot will be the user waypoints,
-def download_mission(vehicle):
+def download_mission():
     cmds = vehicle.commands
     cmds.download()
     cmds.wait_ready()  # wait until download is complete.
@@ -62,9 +62,9 @@ def download_mission(vehicle):
 
 # Function: get the current mission
 # Describe: Downloads the mission and returns the wp list and number of WP,
-def get_current_mission(vehicle, send_cmds=False):
+def get_current_mission(send_cmds=False):
     "Downloading mission"
-    download_mission(vehicle)
+    download_mission()
     missionList = []
     n_WP = 0
     cmds = vehicle.commands
@@ -78,11 +78,11 @@ def get_current_mission(vehicle, send_cmds=False):
 
 # Function: create "Home" point
 # Describe: add as last point the staring point. for backing home after finish the mission.
-def add_last_waypoint_to_mission(vehicle, Latitude, longitude, altitude):
+def add_last_waypoint_to_mission(Latitude, longitude, altitude):
     # Var Init:
     numberOfWPs = 0
     missionList = []
-    cmds, numberOfWPs, missionList = get_current_mission(vehicle, True)
+    cmds, numberOfWPs, missionList = get_current_mission(True)
     # create the last WP
     last_WP = Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
                       0, 0, 0, 0, 0, 0, Latitude, longitude, altitude)
@@ -100,7 +100,7 @@ def add_last_waypoint_to_mission(vehicle, Latitude, longitude, altitude):
 
 # Function: Change mode
 # Describe: change the REAL drone's mode (Guided, Auto, LTR etc)
-def ChangeMode(vehicle, mode):
+def ChangeMode(mode):
     while vehicle.mode != VehicleMode(mode):
         vehicle.mode = VehicleMode(mode)
         time.sleep(0.5)
@@ -111,16 +111,17 @@ def ChangeMode(vehicle, mode):
 
 # Function: velocity
 # Describe: change the velocity with respect to the position of the drone
-def send_global_ned_velocity(vx, vy, vz):
+
+def send_local_ned_velocity(vx, vy, vz):
     msg = vehicle.message_factory.set_position_target_local_ned_encode(
-        0,  # time_boot_ms (not used)
-        0, 0,  # target system, target component
-        mavutil.mavlink.MAV_FRAME_LOCAL_NED,  # frame
-        0b0000111111000111,  # type_mask (only speeds enabled)
-        0, 0, 0,  # x, y, z positions (not used)
-        vx, vy, vz,  # x, y, z velocity in m/s
-        0, 0, 0,  # x, y, z acceleration (not supported yet, ignored in GCS_Mavlink)
-        0, 0)  # yaw, yaw_rate (not supported yet, ignored in GCS_Mavlink)
+        0,
+        0, 0,
+        mavutil.mavlink.MAV_FRAME_BODY_OFFSET_NED,
+        0b0000111111000111,
+        0, 0, 0,
+        vx, vy, vz,
+        0, 0, 0,
+        0, 0)
     vehicle.send_mavlink(msg)
     vehicle.flush()
 
@@ -169,7 +170,7 @@ def dummy_yaw_initializer():
     vehicle.flush()
 
 
-def distance_to_size( desire_distance):
+def distance_to_size(desire_distance):
     if desire_distance <= 1:
         area = 22500
     elif desire_distance <= 2:
@@ -195,15 +196,14 @@ def values_for_balloon_centered(detected_boxes, frame_center_x, frame_center_y, 
     diff_y = frame_center_y - balloon_center_y
     if balloon_area < desire_area:
         if diff_x < -30:  # todo: in diferent Thread - make closer func
-            drone_y = -30
+            drone_y = 30
         if diff_x > 30:
-            drone_y = 30
-        if diff_y < -15:
             drone_y = -30
+        if diff_y < -15:
+            drone_z = 20
         if diff_y > 15:
-            drone_y = 30
+            drone_z = -20
         if balloon_area < desire_area:
             drone_x = 30
 
         return drone_x, drone_y, drone_z
-
