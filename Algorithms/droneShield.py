@@ -9,7 +9,7 @@ import DroneFunc
 ##################################################################################
 ######   Initialize     ########
 # -- Setup the commanded flying speed
-gnd_speed = 10  # [m/s]
+gnd_speed = 1  # [m/s]
 arm_height = 5
 mode = 'GROUND'
 vehicle = connect('udp:127.0.0.1:14551') # Connect to the vehicle
@@ -29,7 +29,7 @@ def main():
         # if suspected area is clear - return to HOME
         if area_is_clear is True:
             # -- We go back home
-            DroneFunc.ChangeMode(vehicle, "RTL")
+            DroneFunc.changeMode("RTL")
             mode = "BACK"
 
         ### Mode for: looking for missions while drone on the ground
@@ -55,14 +55,14 @@ def main():
 
             # -- Change the UAV mode to AUTO
             print("Changing to AUTO")
-            DroneFunc.ChangeMode(vehicle, "AUTO")
+            DroneFunc.changeMode("AUTO")
 
             # -- Change mode, set the ground speed
             vehicle.groundspeed = gnd_speed
-            mode = 'REACHING TO LOCATION'
-            print("Switch mode to REACHING TO LOCATION")
+            mode = 'REACHED TO LOCATION'
+            print("Switch mode to REACHED TO LOCATION")
 
-        elif mode == 'REACHING TO LOCATION':
+        elif mode == 'REACHED TO LOCATION':
             # -- vehicle.commands.cout is the total number of waypoints
             # -- vehicle.commands.next is the waypoint the vehicle is going to
             print("Current WP: %d of %d " % (vehicle.commands.next, vehicle.commands.count))
@@ -70,7 +70,7 @@ def main():
                 print("drone reached the desirable location: time to start search for balloons")
                 # -- First we clear the flight mission
                 DroneFunc.clear_mission(vehicle)
-                DroneFunc.ChangeMode(vehicle, "GUIDED")
+                DroneFunc.changeMode("GUIDED")
                 mode = 'SEARCHING'
 
         #### need to add: mode for searching the balloons

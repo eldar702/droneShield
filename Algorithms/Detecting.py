@@ -55,6 +55,7 @@ def detecting():
 		# moving the drone so the balloon will be in the middle of the frame (= in front of the drone)
 		if detected_flag:
 			drone_x, drone_y, drone_z = DroneFunc.values_for_balloon_centered(detected_boxes[0], frame_center_x, frame_center_y, desire_area)
+			DroneFunc.send_local_ned_velocity(drone_x, drone_y, drone_z)
 		# loop over the tracked objects and write details on screen (rectangle and id).
 		for (objectID, centroid) in objects.items():
 			# draw the ID and the centroid of the object

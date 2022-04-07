@@ -100,7 +100,7 @@ def add_last_waypoint_to_mission(Latitude, longitude, altitude):
 
 # Function: Change mode
 # Describe: change the REAL drone's mode (Guided, Auto, LTR etc)
-def ChangeMode(mode):
+def changeMode(mode):
     while vehicle.mode != VehicleMode(mode):
         vehicle.mode = VehicleMode(mode)
         time.sleep(0.5)
@@ -122,7 +122,7 @@ def send_local_ned_velocity(vx, vy, vz):
         vx, vy, vz,
         0, 0, 0,
         0, 0)
-    vehicle.send_mavlink(msg)
+    vehicle.send_mvelavlink(msg)
     vehicle.flush()
 
 
@@ -205,5 +205,5 @@ def values_for_balloon_centered(detected_boxes, frame_center_x, frame_center_y, 
             drone_z = -20
         if balloon_area < desire_area:
             drone_x = 30
-
-        return drone_x, drone_y, drone_z
+        # we davide by 100 because mavlink command is in meters and we want the move be in cm
+        return drone_x / 100, drone_y / 100, drone_z / 100
