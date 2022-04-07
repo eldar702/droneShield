@@ -169,7 +169,7 @@ def dummy_yaw_initializer():
     vehicle.flush()
 
 
-def distance_to_size(desire_distance):
+def distance_to_size( desire_distance):
     if desire_distance <= 1:
         area = 22500
     elif desire_distance <= 2:
@@ -184,4 +184,26 @@ def distance_to_size(desire_distance):
         area = 700
     return area
 
-def values_for_balloon_centered():
+
+def values_for_balloon_centered(detected_boxes, frame_center_x, frame_center_y, desire_area):
+    (X, Y, W, H) = detected_boxes
+    drone_x, drone_y, drone_z = 0, 0, 0
+    balloon_center_x = X + (W / 2)
+    balloon_center_y = Y + (H / 2)
+    balloon_area = W * H
+    diff_x = frame_center_x - balloon_center_x
+    diff_y = frame_center_y - balloon_center_y
+    if balloon_area < desire_area:
+        if diff_x < -30:  # todo: in diferent Thread - make closer func
+            drone_y = -30
+        if diff_x > 30:
+            drone_y = 30
+        if diff_y < -15:
+            drone_y = -30
+        if diff_y > 15:
+            drone_y = 30
+        if balloon_area < desire_area:
+            drone_x = 30
+
+        return drone_x, drone_y, drone_z
+

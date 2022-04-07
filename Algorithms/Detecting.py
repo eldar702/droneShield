@@ -54,16 +54,7 @@ def detecting():
 		detected_flag = len(objects)
 		# moving the drone so the balloon will be in the middle of the frame (= in front of the drone)
 		if detected_flag:
-			drone_x, drone_y, drone_z = 0, 0, 0
-			(X, Y, W, H) = detected_boxes
-			balloon_center_x = X + (W / 2)
-			balloon_center_y = Y + (H / 2)
-			balloon_area = W * H
-			diff_x = frame_center_x - balloon_center_x
-			diff_y = frame_center_y - balloon_center_y
-			if balloon_area < desire_area:
-				print("DSa")  #todo: in diferent Thread - make closer func
-
+			drone_x, drone_y, drone_z = DroneFunc.values_for_balloon_centered(detected_boxes[0], frame_center_x, frame_center_y, desire_area)
 		# loop over the tracked objects and write details on screen (rectangle and id).
 		for (objectID, centroid) in objects.items():
 			# draw the ID and the centroid of the object
