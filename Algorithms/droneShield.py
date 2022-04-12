@@ -45,7 +45,7 @@ def main():
         elif mode == 'TAKEOFF':
 
             # -- Add the Home waypoint for backing to home when finish the mission
-            DroneFunc.add_last_waypoint_to_mission(vehicle, vehicle.location.global_relative_frame.lat,
+            DroneFunc.add_last_waypoint_to_mission(vehicle.location.global_relative_frame.lat,
                                          vehicle.location.global_relative_frame.lon, vehicle.location.global_relative_frame.alt)
             print("Home waypoint added to the mission")
             time.sleep(1)
