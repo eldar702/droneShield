@@ -1,9 +1,10 @@
 import time
 from dronekit import connect, VehicleMode, LocationGlobalRelative, Command, LocationGlobal
 from pymavlink import mavutil
+import cv2
 import Laser
 import DroneFunc
-
+import Detecting
 ##################################################################################
 #######################          droneShield            ##########################
 ##################################################################################
@@ -17,12 +18,17 @@ print('Connecting...')
 # vehicle = connect('tcp:127.0.0.1:5762', wait_ready=True)
 DroneFunc.dummy_yaw_initializer()
 Laser.first_laser_use() # init some stuff for laser use
-laser_is_turn = False
+laser_is_on_flag = False
+laser_max_time = 5
+detect = Detecting.Detect()
+
 def main():
-    global mode, vehicle, gnd_speed, laser_is_turn, arm_height
+    global mode, vehicle, gnd_speed, laser_is_on_flag, arm_height
+    start_laser_flag = 0
     # Var's declaration:
     area_is_clear = False
-
+    drone_x, drone_y, drone_z = 0, 0, 0
+    centered_flag = 0
     ####  MAIN LOOP  #####
     while True:
 
@@ -74,17 +80,43 @@ def main():
                 mode = 'SEARCHING'
 
         #### need to add: mode for searching the balloons
-        elif mode == "SEARCHING":
+        elif mode == "SEARCHING" and area_is_clear is False:
+            cap = cv2.VideoCapture(0)
+            cap.set(3, detect.Height)
+            cap.set(4, detect.Weight)
+            # cap.set(10,70)
 
-        # mode for target in the exact position, so the laser will pointed the detected balloon
-        elif mode == "targeting":
+            while True:
+                success, img = cap.read()
+                detected_boxes = detect.getBoxes(img)
+                objects = detect.tracker.update(detected_boxes)
+                detected_flag = len(detected_boxes)
 
-        # mode for turning on and off the laser
-        elif mode == "lasering":
-            Laser.turn_laser_on_off(laser_is_turn)
-            # TODO: create function that keeping the laser on until the balloon
-            #       popped, and after TURNOFF the laser AND BACK TO SEARCHING
-        ###  Mode for: backing to home
+               # if balloon is detected - move drone so balloon will be in the middle of the frame (directly in front how the drone)
+                if detected_flag:
+                    drone_x, drone_y, drone_z = DroneFunc.values_for_balloon_centered(detected_boxes[0],
+                    detect.frame_center_x, detect.frame_center_y, detect.desire_area)
+                    DroneFunc.send_local_ned_velocity(drone_x, drone_y, drone_z)
+
+                    centered_flag = (drone_x == 0 and  drone_y == 0 and drone_z == 0)
+                    if centered_flag and laser_is_on_flag is False:
+                        start_laser_flag = time.time()
+                        Laser.turn_laser_on()
+                        laser_is_on_flag = True
+
+                if (time.time() > start_laser_flag + laser_max_time) and laser_is_on_flag:
+                    Laser.turn_laser_off()
+                    laser_is_on_flag = False
+
+                elif detected_flag is False:
+                    area_is_clear = DroneFunc.scanning()
+                # loop over the tracked objects and write details on screen (rectangle and id). IF there is a problem with the writing excange this line with the function's lines
+                Detecting.write_details_on_screen(img, objects)
+
+                cv2.imshow("Output", img) #TODO: only for testing, after testing dont forget to delete (and the lines cv2.putText and cv2.circle too)
+                cv2.waitKey(1)
+
+
         elif mode == "BACK":
             # If drone back home - still steady ant wait for the next mission.
             if vehicle.location.global_relative_frame.alt < 1:

@@ -8,7 +8,7 @@ class Detect:
     def __init__(self):
         self.threshold = 0.25  # Threshold to detect object
         self.nms = 0.2
-        self.Height, self.Weight = (640, 480)
+        self.Height, self.Weight = 640, 480
         self.frame_center_x = self.Height / 2
         self.frame_center_y = self.Weight / 2
 
@@ -68,6 +68,14 @@ class Detect:
 
             cv2.imshow("Output", img)
             cv2.waitKey(1)
+
+
+def write_details_on_screen(img, objects):
+    for (objectID, centroid) in objects.items():
+        # draw the ID and the centroid of the object
+        text = "ID {}".format(objectID)
+        cv2.putText(img, text, (centroid[0] - 10, centroid[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+        cv2.circle(img, (centroid[0], centroid[1]), 4, (0, 255, 0), -1)
 
 
 if __name__ == "__main__":

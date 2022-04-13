@@ -207,3 +207,15 @@ def values_for_balloon_centered(detected_boxes, frame_center_x, frame_center_y, 
             drone_x = 30
         # we davide by 100 because mavlink command is in meters and we want the move be in cm
         return drone_x / 100, drone_y / 100, drone_z / 100
+
+
+def scanning(movement_counter, degrees):
+    movement_before_change = 360 / degrees
+    if movement_counter / movement_before_change == 1:
+        send_local_ned_velocity(0, 0, -2)
+        return False
+    elif movement_counter / movement_before_change == 2:
+        return True
+
+    change_yaw(degrees, 1)
+    return False
