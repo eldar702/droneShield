@@ -1,13 +1,12 @@
 import RPi.GPIO as GPIO
 import time
 
-GPIO_LASER = 27
-
+GPIO_LASER = 17 # --> PIN11/GPIO17
 
 def first_laser_use():
     GPIO.setmode(GPIO.BCM)
     GPIO.setup(GPIO_LASER, GPIO.OUT)
-
+    GPIO.output(GPIO_LASER, GPIO.HIGH)
 
 # turn on the laser
 def turn_laser_on_off(is_on):
@@ -32,3 +31,5 @@ def turn_laser_on():
     time.sleep(0.25)
 
 
+def laser_destroy():
+    GPIO.cleanup()
