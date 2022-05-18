@@ -1,4 +1,9 @@
-# droneShield
-![drone-long](https://user-images.githubusercontent.com/72104254/168977221-30a76f20-07a7-4592-b570-a3f25484d138.gif)
+![droneShield](https://user-images.githubusercontent.com/72104254/168979002-b660370d-bc6e-4410-b8e4-0f8d48daffaf.gif)
 
-<img src="https://user-images.githubusercontent.com/72104254/168977221-30a76f20-07a7-4592-b570-a3f25484d138.gif" width="400" height="400" />
+1. [General](#General)
+    - [Background](#background)
+2. [droneShield](#droneShield)
+    - [Hardware](#Hardware)
+    - [GroundStation](#GroundStation)
+    - [Algorithms](#Algorithms)
+3. [Dependencies](#dependencies) 
