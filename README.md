@@ -20,7 +20,7 @@
     - [Overall](#Overall)
 5. [Algorithms](#Algorithms)
 6. [Videos](#dasd)
-7. [Dependencies](#dependencies) 
+7. [Dependencies](#Dependencies) 
 
 
 
@@ -172,7 +172,7 @@ Description: back to the point where the drone took off. when
 Transitions func: the “takeoff” state
 Goal: reached the “home” point and landed there, waiting to execute the next mission.
 
-Dependencies
+## Dependencies
 * [Python 3.6+](https://www.python.org/downloads/)
 * [NumPy](https://numpy.org/install/)
 * [dronekit](https://github.com/dronekit/dronekit-python)
