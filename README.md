@@ -31,11 +31,11 @@ droneShield is a quadcopter that I designed and built all by myself.**
     - [image_processing](#Mission_Planner)-
     - [state_machines](#state_machines)
          - [Waiting](#Waiting)
-	 - [Takeoff](#Takeoff)
-	 - [Reached](#Reached)
-	 - [Searching](#Searching)
-	 - [Detecting](#Detecting)
-	 - [Back](#Back)
+         - [Takeoff](#Takeoff)
+         - [Reached](#Reached)
+         - [Searching](#Searching)
+         - [Detecting](#Detecting)
+         - [Back](#Back)
     
     
 6. [Media](#Media)
