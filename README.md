@@ -9,14 +9,17 @@
     - [Propellers](#Propellers)
     - [Battery](#Battery)
     - [Frame](#Frame)
-    - [Flight Control](#FC)
-    - [Companion computer](#Companion computer)
+    - [Flight_Control](#Flight_Control)
+    - [Companion_computer](#Companion_computer)
     - [ESC](#ESC)
-    - [RC and Telemetry](#RC and Telemetry)
-    - [GPS and Optical Flow](#GPS and Optical Flow)
+    - [RC_and_Telemetry](#RC_and_Telemetry)
+    - [GPS_and_Optical_Flow](#GPS_and_Optical_Flow)
 3. [GroundStation](#GroundStation)
-    - [Algorithms](#Algorithms)
-3. [Dependencies](#dependencies) 
+    - [QgroundControl](#QgroundControl)
+    - [Mission_Planner](#Mission_Planner)
+    - [Overall](#Overall)
+5. [Algorithms](#Algorithms)
+6. [Dependencies](#dependencies) 
 
 
 
@@ -85,11 +88,11 @@ The s': the number of lipo cells the battery contains. This is measured by digis
 	Safe tip: the lipo batteries are flammable, so always store them in cold place inside a special case (there is cases for that all over amazon/aliexpress)
 
 #### **Frame**:
-	there is a lot of frames for drones, distinguish from one to other in size, shape and material. For building "custom big" drone, most of the guides in the 	   internet recommend using a 450F plastic frame. I think it is a bad choice because of two main reasons:
-	1. Size – there is no enough space on frame of the drone, so it force you use the space to smart and in most cases just make it little harder to design.
-	I would recommend choosing a 500F frame 
-	2. Durability: plastic is to breakable. If it your first build of drone (as was for me) you are going to crash a lot of times. Too breakable frame will just be 	   bad choice.
-	I would reccomand using of carbon frame. From my experience, it really worth the extra dollars and extra weight. You can look in few crashes I had with 	droneShield in the "loopers" folder
+there is a lot of frames for drones, distinguish from one to other in size, shape and material. For building "custom big" drone, most of the guides in the 	   internet recommend using a 450F plastic frame. I think it is a bad choice because of two main reasons:
+1. Size – there is no enough space on frame of the drone, so it force you use the space to smart and in most cases just make it little harder to design.
+I would recommend choosing a 500F frame 
+2. Durability: plastic is to breakable. If it your first build of drone (as was for me) you are going to crash a lot of times. Too breakable frame will just be bad choice.
+I would reccomand using of carbon frame. From my experience, it really worth the extra dollars and extra weight. You can look in few crashes I had with 	droneShield in the "loopers" folder
 
 #### **Flight Control (FC)**
 Is the control center of the drone. Meaning is the central hub that all the electronics component connect to.
@@ -126,9 +129,17 @@ BUT, GPS must be outside to access satellites, so for inside use – its preffer
 
 For the drone to communicate with the operator, some "channel" is needed. It can communicate via remote control, the droneShield can definitely be operated via remote control. But the problem with this communication channel is understandable - requires the operator to know how to fly a glider and as I noted - violates one of the 3 main principles by which I worked and made decisions. We said that the drone should be autonomous and not require any prior knowledge.
 2 programs are open source that include a very strong community and an insane amount of functionality.
-1. QgroundControl
-2. mission planner
+### QgroundControl
+QGroundControl (QGC) is an intuitive and powerful ground control station (GCS) for UAVs.
+The primary goal of QGC is ease of use for both first time and professional users. It provides full flight control and mission planning for any MAVLink enabled drone, and vehicle setup for both PX4 and ArduPilot powered UAVs. Instructions for using QGroundControl are provided in the User Manual (you may not need them because the UI is very intuitive!)
+Link to documentation: https://github.com/mavlink/qgroundcontrol
 
+### Mission_Planner
+Mission Planner is a full-featured ground station application for the ArduPilot open source autopilot project. This page contains information on the background of Mission Planner and the organization of this site.
+Mission Planner is a ground control station for Plane, Copter and Rover. It is compatible with Windows only. Mission Planner can be used as a configuration utility or as a dynamic control supplement for your autonomous vehicle. Here are just a few things you can do with Mission Planner:
+Link to documentation: https://ardupilot.org/planner/
+
+### Overall 
 Both are highly recommended. The first is more "clean" and intuitive so I chose to use it mainly, also attached to the Qgroundcontrol folder installation file, but if necessary I would recommend going into the QgroudControl or mission planner documentation
 
 ## Algorithms:
