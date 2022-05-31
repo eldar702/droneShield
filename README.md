@@ -6,7 +6,6 @@ droneShield is a quadcopter that I designed and built all by myself.**
 
 1.  [General](#General)
 -
-
     - [Background](#background)
     - [droneShield](#droneshield)
     - [Prolog](#Prolog)
