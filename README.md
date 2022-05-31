@@ -148,7 +148,7 @@ Both are highly recommended. The first is more "clean" and intuitive so I chose 
 In order for droneShield to be as autonomous as possible, I used state machine architecture. So I defined a situation state, where each one includes a target task and a "transition function". A combination of these is called state.
 The different states:
 
-1.	**Takeoff**: 
+### **Takeoff**: 
 
 Description: start executing a given mission by takeoff.
 
@@ -156,7 +156,7 @@ Transitions func: reached to location state.
 
 Goal: reached to desire meters height.
 
-2.	**Reached to location**
+###	**Reached to location**
 
 Description: fly the drone to the desired location. “desire location”: is the suspected area, given by the user by clicking on the map.
 
@@ -164,7 +164,7 @@ Transitions func: Searching state.
 
 Goal: reached the given point.
 
-3.	**Searching**
+###	**Searching**
 
 Description: looking for incendiary balloons.
 
@@ -172,14 +172,15 @@ Transitions func: Detecting state and back state.
 
 Goal: found a balloon.
 
-4.	**Detecting**
+###	**Detecting**
+
 Description: After the balloons is found in the Searching state, droneShield will aim at it and turn on the laser and make sure the balloon has indeed exploded.
 
 Transitions func:  Searching state and back state.
 
 Goal: to blow all the balloons that had founded.
 
-5.	**Back**
+###	**Back**
 
 Description: back to the point where the drone took off.
 
