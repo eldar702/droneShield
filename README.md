@@ -12,7 +12,7 @@
 
 ## General
 
-<img src="https://user-images.githubusercontent.com/72104254/171169294-3d556cac-ccf1-4b30-9806-515de5c29d10.jpeg" width="800" height="400">
+<img src="https://user-images.githubusercontent.com/72104254/171169294-3d556cac-ccf1-4b30-9806-515de5c29d10.jpeg" width="750" height="500">
 
 ### Background
 In Israel, there is a problem, which causes the burning of thousands of dunams of Israeli territory - the problem of incendiary balloons.
@@ -32,7 +32,7 @@ droneShield uses image processing to identify the balloons and uses state machin
 In a nutshell - with the click of a droneShield button activated, it flies to an area marked on a map located on the groundstation, scans for incendiary balloons, and destroys them, using the build-in laser if it finds any. And if that is not enough, after the scan he returns to the starting point, where he will wait for further instructions.
 
 ### Hardware
-<img src="https://user-images.githubusercontent.com/72104254/171169896-b5397ded-3721-4c29-bd08-aa990861935f.jpg" width="800" height="400">
+<img src="https://user-images.githubusercontent.com/72104254/171169896-b5397ded-3721-4c29-bd08-aa990861935f.jpg" width="450" height="400">
 
 We will now scan all the components I have selected for the drone, as well as various considerations.
 
