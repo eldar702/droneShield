@@ -9,7 +9,7 @@
     - [Propellers](#Propellers)
     - [Battery](#Battery)
     - [Frame](#Frame)
-    - [Flight Control (FC)](#Flight Control (FC))
+    - [FC](#Flight Control (FC))
     - [Companion computer](#Companion computer)
     - [ESC](#ESC)
     - [RC and Telemetry](#RC and Telemetry)
