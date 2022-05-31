@@ -2,9 +2,10 @@
 
 1. [General](#General)
     - [Background](#background)
+    
 2. [droneShield](#droneshield)
     - [Prolog](#Prolog)
-    - [Hardware](#Hardware)
+3. [Hardware](#Hardware)
     - [Motors](#Motors)
     - [Propellers](#Propellers)
     - [Battery](#Battery)
@@ -15,21 +16,20 @@
     - [RC_and_Telemetry](#RC_and_Telemetry)
     - [GPS_and_Optical_Flow](#GPS_and_Optical_Flow)
     - [Laser](#Laser)
-
 3. [GroundStation](#GroundStation)
     - [QgroundControl](#QgroundControl)
     - [Mission_Planner](#Mission_Planner)
     - [Overall](#Overall)
-5. [Algorithms](#Algorithms)
-6. [Videos](#dasd)
-7. [Dependencies](#Dependencies) 
+4. [Algorithms](#Algorithms)
+5. [Videos](#dasd)
+6. [Dependencies](#Dependencies) 
 
 
 
-## General
+# General
 <img src="https://user-images.githubusercontent.com/72104254/171228942-f92f020f-45a0-41a7-beea-6eb9b94bdb23.png" width="1050" height="400">
 
-### Background
+## Background
 In Israel, there is a problem, which causes the burning of thousands of dunams of Israeli territory - the problem of incendiary balloons.
 Terrorist organizations, and for the most Hamas organization, have found a patent: they tie explosive devices to helium balloons and inflate them from the West Bank to the State of Israel in general and the surrounding settlements in particular.
 The economic and safety damages are enormous: thousands of acres are burned each year and the safety of hundreds of thousands of residents of the affected envelope. The situation is absurd: balloons scare children instead of arousing the opposite emotion.
@@ -37,10 +37,10 @@ The economic and safety damages are enormous: thousands of acres are burned each
 So what - a computer science student can not create a solution that meets all three shortcomings that the other solutions fail to address? 
 Say hello to droneShield.
 
-## droneShield
-<img src="https://user-images.githubusercontent.com/72104254/171169294-3d556cac-ccf1-4b30-9806-515de5c29d10.jpeg" width="750" height="500">
+# droneShield
+<img src="https://user-images.githubusercontent.com/72104254/171169294-3d556cac-ccf1-4b30-9806-515de5c29d10.jpeg" width="700" height="400">
 
-### Prolog
+## Prolog
 I was asked by my 2 lecturers at the university, Dr. Ariel Roth and Asi Barak, to choose a problem and find a solution to it. Which problem I want, in which way I want. I presented the problem to you, now I presented the solution:
 Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate the incendiary balloons.
 droneShield is a skimmer that I designed and built myself.
@@ -48,7 +48,7 @@ droneShield is fully powered from the groundstation.
 droneShield uses image processing to identify the balloons and uses state machine architecture to operate autonomously.
 In a nutshell - with the click of a droneShield button activated, it flies to an area marked on a map located on the groundstation, scans for incendiary balloons, and destroys them, using the build-in laser if it finds any. And if that is not enough, after the scan he returns to the starting point, where he will wait for further instructions.
 
-### Hardware
+# Hardware
 <img src="https://user-images.githubusercontent.com/72104254/171169896-b5397ded-3721-4c29-bd08-aa990861935f.jpg" width="450" height="400">
 
 We will now scan all the components I have selected for the drone, as well as various considerations.
