@@ -19,7 +19,8 @@
     - [Mission_Planner](#Mission_Planner)
     - [Overall](#Overall)
 5. [Algorithms](#Algorithms)
-6. [Dependencies](#dependencies) 
+6. [Videos](#dasd)
+7. [Dependencies](#dependencies) 
 
 
 
@@ -106,11 +107,11 @@ Stands for electronic speed controllers. And as the name hints, it in charge of 
 It connects to the motor from one side and the other connects to the electric supply (in most cases to PDB – power distribution board and not to the battery directly).
 ESC's specs will tell you what types of lipos you can use with them (2-4s 30a means you can use it with a battery of max 30a and 4 lipo cells)
 
-#### **RC and Telemetry**:	
+#### **RC_and_Telemetry**:	
 both of them are used to communicate data wirelessly with the drone. While Telemetry communication is bi directional, rc communication is unidirectional. 
 Telemetry is used for communicate with ground station. In our case – droneShield communicate with QGroundControl
    
-#### **GPS and Optical Flow**
+#### **GPS_and_Optical_Flow**
 For autonomous drone mission. We need a way for the drone to determine its position in 3D space:
 1.	GPS
 2.	Optical flow
@@ -171,4 +172,12 @@ Description: back to the point where the drone took off. when
 Transitions func: the “takeoff” state
 Goal: reached the “home” point and landed there, waiting to execute the next mission.
 
+Dependencies
+* [Python 3.6+](https://www.python.org/downloads/)
+* [NumPy](https://numpy.org/install/)
+* [dronekit](https://github.com/dronekit/dronekit-python)
+* [pymavlink](https://github.com/ArduPilot/pymavlink)
+* [cv2](https://pypi.org/project/opencv-python/)
+* [scipy](https://scipy.org/)
+* [RPi.GPIO](https://pypi.org/project/RPi.GPIO/)
 
