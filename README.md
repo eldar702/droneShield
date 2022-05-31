@@ -1,7 +1,8 @@
 ![droneShield](https://user-images.githubusercontent.com/72104254/168979002-b660370d-bc6e-4410-b8e4-0f8d48daffaf.gif)
 
-Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate an incendiary balloons.
-droneShield is a quadcopter that I designed and built myself.
+
+**Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate an incendiary balloons.
+droneShield is a quadcopter that I designed and built myself. *
 
 1. [General](#General)
 	-
