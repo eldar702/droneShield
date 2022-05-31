@@ -147,6 +147,7 @@ Both are highly recommended. The first is more "clean" and intuitive so I chose 
 <img src="https://user-images.githubusercontent.com/72104254/171230368-f63b18c1-05cb-4cd8-b1d1-bff4802220d8.png" width="1000" height="450">
 In order for droneShield to be as autonomous as possible, I used state machine architecture. So I defined a situation state, where each one includes a target task and a "transition function". A combination of these is called state.
 The different states:
+
 1.	**Takeoff**: 
 Description: start executing a given mission by takeoff 
 Transitions func: reached to location state
