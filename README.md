@@ -2,7 +2,7 @@
 
 
 **Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate an incendiary balloons.
-droneShield is a quadcopter that I designed and built myself. *
+droneShield is a quadcopter that I designed and built all by myself.**
 
 1. [General](#General)
 	-
@@ -30,12 +30,20 @@ droneShield is a quadcopter that I designed and built myself. *
 	-
     - [image_processing](#Mission_Planner)-
     - [state_machines](#state_machines)
+         - [Waiting](#Waiting)
+	 - [Takeoff](#Takeoff)
+	 - [Reached](#Reached)
+	 - [Searching](#Searching)
+	 - [Detecting](#Detecting)
+	 - [Back](#Back)
     
     
-6. [Videos](#dasd)
+6. [Media](#Media)
 	-
-    - [Bloopers](#DASDAS)
-    - [FINAL_VIDEO](#asdada)
+    - [Building_Photos](#Photos)
+    - [Bloopers](#Bloopers)
+    - [FINAL_VIDEO](#FINAL_VIDEO)
+    - 
 7. [Dependencies](#Dependencies) 
     -
 
@@ -79,6 +87,8 @@ The last two digits are the height of the rotor in mm, so this motor has a 6 mm 
 And the KV rating tells you how fast the shaft will spin per volt with no load:
 Higer kv means the motor will spin faster while lover kv means you have more torque.
 
+<img src="https://user-images.githubusercontent.com/72104254/171284605-c0e2c5af-dbcb-4514-8434-e41f59196c8d.png" width="220" height="280">
+
 #### **Propellers**
 Selection propeller should be done with motor and battery selection in mind. Different prop specs can produce drastically different current draws and torque.
 Specs of the props will be provided in 4 digits of numbers, for example, 1245.
@@ -89,6 +99,7 @@ The higher the pitch, the more torque you will generate.
 There is a tradeoff between current draw (which here will be the main influencer to torque)
 And the size of the propellor.
 So you can think that if you want more torque (head up – droneShield is really heavy drone – Weight 1.6kg!) so you need to choose as much as big propellor as you can get. This assumption is obviously wrong. First of all – you are limited by the size of the frame you have chosed. Furthermore and maybe more important – bigger props produce more heat. For example: you cant use 810kv motors with 1445 props and 3s battery, but you can use it with 1245 props.
+<img src="https://user-images.githubusercontent.com/72104254/171285874-c80aadec-dc2d-40a3-b471-0cb6c2c8604d.jpg" width="220" height="240">
 
 #### **Battery**
 In drones we make use of lipo batteries. This choice is simple – They have very high specific energy, they very cheap and they weight less than other options.
@@ -105,33 +116,40 @@ The s': the number of lipo cells the battery contains. This is measured by digis
 	The higher the volts the bigger the power the drone will have, BUT – bigger valts mean more hot the drone will produce. For example for 810kv motors with 1245 props you can use 3s battery but you can't use it with 4's battery – it will lead to overheat.
 	Safe tip: the lipo batteries are flammable, so always store them in cold place inside a special case (there is cases for that all over amazon/aliexpress)
 
+<img src="https://user-images.githubusercontent.com/72104254/171285926-49537f80-ad33-4b7d-b8da-f94bb4b60b00.png" width="300" height="150">
+
 #### **Frame**:
 there is a lot of frames for drones, distinguish from one to other in size, shape and material. For building "custom big" drone, most of the guides in the 	   internet recommend using a 450F plastic frame. I think it is a bad choice because of two main reasons:
 1. Size – there is no enough space on frame of the drone, so it force you use the space to smart and in most cases just make it little harder to design.
 I would recommend choosing a 500F frame 
 2. Durability: plastic is to breakable. If it your first build of drone (as was for me) you are going to crash a lot of times. Too breakable frame will just be bad choice.
-I would reccomand using of carbon frame. From my experience, it really worth the extra dollars and extra weight. You can look in few crashes I had with 	droneShield in the "loopers" folder
+I would reccomand using of carbon frame. From my experience, it really worth the extra dollars and extra weight. You can look in few crashes I had with 	droneShield in the [loopers folder](#Looper)
 
 #### **Flight Control (FC)**
 Is the control center of the drone. Meaning is the central hub that all the electronics component connect to.
 I'm use here Pixhawk, and I REALY recommend using it.
+<img src="https://user-images.githubusercontent.com/72104254/171284081-247d2717-dc65-42d0-aaf6-30c6e3f06753.png" width="280" height="380">
 
 #### **Companion computer**
 the fc is like small computer but not really – it control all the component but it doesn’t have computing power. So how can you use artificial intelligent like image processing with your drone? Simply – connect a companion computer (very small and thin computer) to your drone. droneShield makes use of raspberry pi 4b for the image processing and algorithms use. 
+<img src="https://user-images.githubusercontent.com/72104254/171284188-73b98d57-129b-453b-88d8-2d1a947fd74f.png" width="400" height="270">
 
 #### **ESC**
 Stands for electronic speed controllers. And as the name hints, it in charge of digests the PWM sent from the FC and produces an ESC output that will drive the motors.
 It connects to the motor from one side and the other connects to the electric supply (in most cases to PDB – power distribution board and not to the battery directly).
 ESC's specs will tell you what types of lipos you can use with them (2-4s 30a means you can use it with a battery of max 30a and 4 lipo cells)
+<img src="https://user-images.githubusercontent.com/72104254/171285848-b316d780-f357-4673-8989-ec520b151817.png" width="310" height="160">
 
 #### **RC_and_Telemetry**:	
 both of them are used to communicate data wirelessly with the drone. While Telemetry communication is bi directional, rc communication is unidirectional. 
 Telemetry is used for communicate with ground station. In our case – droneShield communicate with QGroundControl
+   <img src="https://user-images.githubusercontent.com/72104254/171285896-dc0f9d33-5a12-43b4-b4f6-3c4d3d25a09c.png" width="200" height="240">
    
 #### **GPS_and_Optical_Flow**
 For autonomous drone mission. We need a way for the drone to determine its position in 3D space:
 1.	GPS
 2.	Optical flow
+
 
 #### **GPS**
 Used in conjunction with a magnetometer. The gps make the drone know his location. So for travel to another location, simply travel from know current position to target waypoint. 
@@ -140,9 +158,19 @@ There is 2 main pros for GPS that make my recommendation for the component for
 1.	Self adjusts its errors (example: if a gust of wind blows the drone off course, a new reading will simply show where the new location of the drone is on 3D space).
 2.	Cheap
 BUT, GPS must be outside to access satellites, so for inside use – its preffer to use optical flow.
-
+<img src="https://user-images.githubusercontent.com/72104254/171285855-c39c5fa1-074b-40e2-a3d1-511424a63ea7.png" width="190" height="250">
 
 #### **Laser**
+First and foremost, Working with laser is very dangerous, and requires working with appropriate protective equipment.
+This is not a joke. Moreover - I recommend avoiding working with a laser.
+There are other solutions to the problem, and laser is the hardest and most dangerous of all.
+To be honest, as a computer science student I did not get involved in mechanical and electrical engineering, things that really interested me. The design and build of the drone "closed the corner" of the machines for me but not enough of the electricity.
+so I chose to add a laser.
+In any case, since this readme is of professional value, I will add a picture of the relevant electrical circuit:
+
+<img src="https://user-images.githubusercontent.com/72104254/171283872-dfc558cf-7cd2-44c1-9ef3-34d8a0e7a6e5.png" width="350" height="450">
+
+
 ## GroundStation:
 <img src="https://user-images.githubusercontent.com/72104254/171227222-9c5f6923-e0f5-46cf-8156-c09caf74724d.jpg" width="1050" height="450">
 
@@ -181,7 +209,7 @@ Transitions func: reached to location state.
 
 Goal: reached to desire meters height.
 
-###	**Reached to location**
+###	**Reached**
 
 Description: fly the drone to the desired location. “desire location”: is the suspected area, given by the user by clicking on the map.
 
