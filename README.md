@@ -4,7 +4,8 @@
 **Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate incendiary balloons.
 droneShield is a quadcopter that I designed and built all by myself.**
 
-1. [General](#General)-
+1. [General](#General) -
+-
     - [Background](#background)
     - [droneShield](#droneshield)
     - [Prolog](#Prolog)
