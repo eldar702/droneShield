@@ -1,10 +1,12 @@
 ![droneShield](https://user-images.githubusercontent.com/72104254/168979002-b660370d-bc6e-4410-b8e4-0f8d48daffaf.gif)
 
+Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate an incendiary balloons.
+droneShield is a quadcopter that I designed and built myself.
+
 1. [General](#General)
 	-
     - [Background](#background)
-2. [droneShield](#droneshield)
-3.  -
+    - [droneShield](#droneshield)
     - [Prolog](#Prolog)
 3. [Hardware](#Hardware)
     -
@@ -45,7 +47,7 @@
 In Israel, there is a problem, which causes the burning of thousands of dunams of Israeli territory - the problem of incendiary balloons.
 Terrorist organizations, and for the most Hamas organization, have found a patent: they tie explosive devices to helium balloons and inflate them from the West Bank to the State of Israel in general and the surrounding settlements in particular.
 The economic and safety damages are enormous: thousands of acres are burned each year and the safety of hundreds of thousands of residents of the affected envelope. The situation is absurd: balloons scare children instead of arousing the opposite emotion.
- There are several solutions: There are systems that use laser and blow up the incendiary balloons with a very high probability, but their price is so high and therefore dominates a few areas in the envelope. Another military solution is to use gliders, but flying a glider requires prior knowledge and special training. Also - not everyone has the technological orientation for this. As a result - this solution, like the previous one, is marketed as B2G. That is to say again - this is a complicated solution that provides a partial solution - also that using soldiers to fly the glider is a historic pre-historic. There are a number of other solutions but they are just the "same thing in a different guise".
+ There are several solutions: There are systems that use laser and blow up the incendiary balloons with a very high probability, but their price is so high and therefore dominates a few areas in the envelope. Another military solution is to use drones, but flying a drones requires prior knowledge and special training. Also - not everyone has the technological orientation for this. As a result - this solution, like the previous one, is marketed as B2G. That is to say again - this is a complicated solution that provides a partial solution - also that using soldiers to fly the drone is a historic pre-historic. There are a number of other solutions but they are just the "same thing in a different guise".
 So what - a computer science student can not create a solution that meets all three shortcomings that the other solutions fail to address? 
 Say hello to droneShield.
 
@@ -54,8 +56,8 @@ Say hello to droneShield.
 
 ## Prolog
 I was asked by my 2 lecturers at the university, Dr. Ariel Roth and Asi Barak, to choose a problem and find a solution to it. Which problem I want, in which way I want. I presented the problem to you, now I presented the solution:
-Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate the incendiary balloons.
-droneShield is a skimmer that I designed and built myself.
+Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate an incendiary balloons.
+droneShield is a quadcopter that I designed and built myself.
 droneShield is fully powered from the groundstation.
 droneShield uses image processing to identify the balloons and uses state machine architecture to operate autonomously.
 In a nutshell - with the click of a droneShield button activated, it flies to an area marked on a map located on the groundstation, scans for incendiary balloons, and destroys them, using the build-in laser if it finds any. And if that is not enough, after the scan he returns to the starting point, where he will wait for further instructions.
@@ -163,7 +165,14 @@ Both are highly recommended. The first is more "clean" and intuitive so I chose 
 In order for droneShield to be as autonomous as possible, I used state machine architecture. So I defined a situation state, where each one includes a target task and a "transition function". A combination of these is called state.
 The different states:
 
-### **Takeoff**: 
+### ** Waiting **
+Description: initial state, when drone turn on. droneShield is waitnig grounded, waiting for the user to click where the suspected area is. 
+
+Transitions func: Takeoff state.
+
+Goal: to the party begins (not really, droneShield isn't a party guy, but he is really loyalty; waiting for user command to start).
+
+### **Takeoff** 
 
 Description: start executing a given mission by takeoff.
 
