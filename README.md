@@ -11,7 +11,7 @@
 
 
 ## General
-<img src="https://user-images.githubusercontent.com/72104254/171228942-f92f020f-45a0-41a7-beea-6eb9b94bdb23.png" width="850" height="500">
+<img src="https://user-images.githubusercontent.com/72104254/171228942-f92f020f-45a0-41a7-beea-6eb9b94bdb23.png" width="950" height="400">
 
 ### Background
 In Israel, there is a problem, which causes the burning of thousands of dunams of Israeli territory - the problem of incendiary balloons.
