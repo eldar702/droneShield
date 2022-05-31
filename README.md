@@ -245,6 +245,7 @@ Goal: reached the “home” point and landed there, waiting to execute the next
 
 ## Media
 On the recommendation of my lecturer, I documented the [various stages of construction](https://github.com/eldar702/droneShield/blob/main/Video/Building_Photos/README.md),as well as [Bloopers](https://github.com/eldar702/droneShield/tree/main/Video/Bloopers) whos happend up the road. and even videos of my [first flight](https://github.com/eldar702/droneShield/blob/main/Video/Bloopers/first%20flight.mp4) and [second flight](https://github.com/eldar702/droneShield/blob/main/Video/Bloopers/second%20flight.mp4) :)
+And even one of my [first autonomous flights](), which ended hilarious 
 
 And finally, after a long, instructive and intriguing journey - My final video.
 
