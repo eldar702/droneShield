@@ -3,6 +3,7 @@
 1. [General](#General)
     - [Background](#background)
 2. [droneShield](#droneshield)
+    - [Prolog](#Prolog)
     - [Hardware](#Hardware)
     - [GroundStation](#GroundStation)
     - [Algorithms](#Algorithms)
@@ -23,7 +24,8 @@ Say hello to droneShield.
 
 ## droneShield
 <img src="https://user-images.githubusercontent.com/72104254/171169294-3d556cac-ccf1-4b30-9806-515de5c29d10.jpeg" width="750" height="500">
-### Background
+
+### Prolog
 I was asked by my 2 lecturers at the university, Dr. Ariel Roth and Asi Barak, to choose a problem and find a solution to it. Which problem I want, in which way I want. I presented the problem to you, now I presented the solution:
 Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate the incendiary balloons.
 droneShield is a skimmer that I designed and built myself.
@@ -120,7 +122,7 @@ For the drone to communicate with the operator, some "channel" is needed. It can
 Both are highly recommended. The first is more "clean" and intuitive so I chose to use it mainly, also attached to the Qgroundcontrol folder installation file, but if necessary I would recommend going into the QgroudControl or mission planner documentation
 
 ## Algorithms:
-
+<img src="https://user-images.githubusercontent.com/72104254/171230368-f63b18c1-05cb-4cd8-b1d1-bff4802220d8.png" width="1000" height="450">
 In order for droneShield to be as autonomous as possible, I used state machine architecture. So I defined a situation state, where each one includes a target task and a "transition function". A combination of these is called state.
 The different states:
 1.	**Takeoff**: 
