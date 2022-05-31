@@ -99,6 +99,7 @@ The higher the pitch, the more torque you will generate.
 There is a tradeoff between current draw (which here will be the main influencer to torque)
 And the size of the propellor.
 So you can think that if you want more torque (head up – droneShield is really heavy drone – Weight 1.6kg!) so you need to choose as much as big propellor as you can get. This assumption is obviously wrong. First of all – you are limited by the size of the frame you have chosed. Furthermore and maybe more important – bigger props produce more heat. For example: you cant use 810kv motors with 1445 props and 3s battery, but you can use it with 1245 props.
+
 <img src="https://user-images.githubusercontent.com/72104254/171285874-c80aadec-dc2d-40a3-b471-0cb6c2c8604d.jpg" width="220" height="240">
 
 #### **Battery**
@@ -138,6 +139,7 @@ the fc is like small computer but not really – it control all the component bu
 Stands for electronic speed controllers. And as the name hints, it in charge of digests the PWM sent from the FC and produces an ESC output that will drive the motors.
 It connects to the motor from one side and the other connects to the electric supply (in most cases to PDB – power distribution board and not to the battery directly).
 ESC's specs will tell you what types of lipos you can use with them (2-4s 30a means you can use it with a battery of max 30a and 4 lipo cells)
+
 <img src="https://user-images.githubusercontent.com/72104254/171285848-b316d780-f357-4673-8989-ec520b151817.png" width="310" height="160">
 
 #### **RC_and_Telemetry**:	
@@ -240,6 +242,11 @@ Description: back to the point where the drone took off.
 Transitions func: the “takeoff” state.
 
 Goal: reached the “home” point and landed there, waiting to execute the next mission.
+
+## Media
+On the recommendation of my lecturer, I documented the [various stages of construction](https://github.com/eldar702/droneShield/blob/main/Video/Building_Photos/README.md),as well as [Bloopers](https://github.com/eldar702/droneShield/tree/main/Video/Bloopers) whos happend up the road. and even videos of my first and second flight :)
+
+And finally, after a long, instructive and intriguing journey - My final video.
 
 ## Dependencies
 * [Python 3.6+](https://www.python.org/downloads/)
