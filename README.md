@@ -1,10 +1,13 @@
 ![droneShield](https://user-images.githubusercontent.com/72104254/168979002-b660370d-bc6e-4410-b8e4-0f8d48daffaf.gif)
 
 1. [General](#General)
+2. -
     - [Background](#background)
 2. [droneShield](#droneshield)
+3.  -
     - [Prolog](#Prolog)
 3. [Hardware](#Hardware)
+    -
     - [Motors](#Motors)
     - [Propellers](#Propellers)
     - [Battery](#Battery)
@@ -16,18 +19,22 @@
     - [GPS_and_Optical_Flow](#GPS_and_Optical_Flow)
     - [Laser](#Laser)
 3. [GroundStation](#GroundStation)
+	-
     - [QgroundControl](#QgroundControl)
     - [Mission_Planner](#Mission_Planner)
     - [Overall](#Overall)
 4. [Algorithms](#Algorithms)
+	-
     - [image_processing](#Mission_Planner)-
     - [state_machines](#state_machines)
     
     
 6. [Videos](#dasd)
+	-
     - [Bloopers](#DASDAS)
     - [FINAL_VIDEO](#asdada)
 7. [Dependencies](#Dependencies) 
+    -
 
 
 
