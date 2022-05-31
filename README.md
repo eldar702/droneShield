@@ -2,7 +2,6 @@
 
 1. [General](#General)
     - [Background](#background)
-    
 2. [droneShield](#droneshield)
     - [Prolog](#Prolog)
 3. [Hardware](#Hardware)
@@ -21,7 +20,11 @@
     - [Mission_Planner](#Mission_Planner)
     - [Overall](#Overall)
 4. [Algorithms](#Algorithms)
-5. [Videos](#dasd)
+    - [image_processing](#Mission_Planner)
+    - [state_machines](#state_machines)
+    	-
+    
+6. [Videos](#dasd)
     - [Bloopers](#DASDAS)
     - [FINAL_VIDEO](#asdada)
 7. [Dependencies](#Dependencies) 
