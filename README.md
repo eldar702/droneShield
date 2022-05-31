@@ -22,7 +22,9 @@
     - [Overall](#Overall)
 4. [Algorithms](#Algorithms)
 5. [Videos](#dasd)
-6. [Dependencies](#Dependencies) 
+    - [Bloopers](#DASDAS)
+    - [FINAL_VIDEO](#asdada)
+7. [Dependencies](#Dependencies) 
 
 
 
