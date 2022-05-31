@@ -5,7 +5,16 @@
 2. [droneShield](#droneshield)
     - [Prolog](#Prolog)
     - [Hardware](#Hardware)
-    - [GroundStation](#GroundStation)
+    - [Motors](#Motors)
+    - [Propellers](#Propellers)
+    - [Battery](#Battery)
+    - [Frame](#Frame)
+    - [Flight Control (FC)](#Flight Control (FC))
+    - [Companion computer](#Companion computer)
+    - [ESC](#ESC)
+    - [RC and Telemetry](#RC and Telemetry)
+    - [GPS and Optical Flow](#GPS and Optical Flow)
+3. [GroundStation](#GroundStation)
     - [Algorithms](#Algorithms)
 3. [Dependencies](#dependencies) 
 
@@ -75,11 +84,12 @@ The s': the number of lipo cells the battery contains. This is measured by digis
 	The higher the volts the bigger the power the drone will have, BUT – bigger valts mean more hot the drone will produce. For example for 810kv motors with 1245 props you can use 3s battery but you can't use it with 4's battery – it will lead to overheat.
 	Safe tip: the lipo batteries are flammable, so always store them in cold place inside a special case (there is cases for that all over amazon/aliexpress)
 
-#### **Frame**:  there is a lot of frames for drones, distinguish from one to other in size, shape and material. For building "custom big" drone, most of the guides in the internet recommend using a 450F plastic frame. I think it is a bad choice because of two main reasons:
-1.	Size – there is no enough space on frame of the drone, so it force you use the space to smart and in most cases just make it little harder to design.
-I would recommend choosing a 500F frame 
-2.	Durability: plastic is to breakable. If it your first build of drone (as was for me) you are going to crash a lot of times. Too breakable frame will just be bad choice.
-I would reccomand using of carbon frame. From my experience, it really worth the extra dollars and extra weight. You can look in few crashes I had with droneShield in the "loopers" folder
+#### **Frame**:
+	there is a lot of frames for drones, distinguish from one to other in size, shape and material. For building "custom big" drone, most of the guides in the 	   internet recommend using a 450F plastic frame. I think it is a bad choice because of two main reasons:
+	1. Size – there is no enough space on frame of the drone, so it force you use the space to smart and in most cases just make it little harder to design.
+	I would recommend choosing a 500F frame 
+	2. Durability: plastic is to breakable. If it your first build of drone (as was for me) you are going to crash a lot of times. Too breakable frame will just be 	   bad choice.
+	I would reccomand using of carbon frame. From my experience, it really worth the extra dollars and extra weight. You can look in few crashes I had with 	droneShield in the "loopers" folder
 
 #### **Flight Control (FC)**
 Is the control center of the drone. Meaning is the central hub that all the electronics component connect to.
