@@ -14,6 +14,8 @@
     - [ESC](#ESC)
     - [RC_and_Telemetry](#RC_and_Telemetry)
     - [GPS_and_Optical_Flow](#GPS_and_Optical_Flow)
+    - [Laser](#Laser)
+
 3. [GroundStation](#GroundStation)
     - [QgroundControl](#QgroundControl)
     - [Mission_Planner](#Mission_Planner)
@@ -125,6 +127,7 @@ There is 2 main pros for GPS that make my recommendation for the component for
 BUT, GPS must be outside to access satellites, so for inside use – its preffer to use optical flow.
 
 
+#### **Laser**
 ## GroundStation:
 <img src="https://user-images.githubusercontent.com/72104254/171227222-9c5f6923-e0f5-46cf-8156-c09caf74724d.jpg" width="1050" height="450">
 
