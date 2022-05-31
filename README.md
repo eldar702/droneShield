@@ -11,8 +11,7 @@
 
 
 ## General
-
-<img src="https://user-images.githubusercontent.com/72104254/171169294-3d556cac-ccf1-4b30-9806-515de5c29d10.jpeg" width="750" height="500">
+<img src="https://user-images.githubusercontent.com/72104254/171228942-f92f020f-45a0-41a7-beea-6eb9b94bdb23.png)" width="850" height="500">
 
 ### Background
 In Israel, there is a problem, which causes the burning of thousands of dunams of Israeli territory - the problem of incendiary balloons.
@@ -23,6 +22,7 @@ So what - a computer science student can not create a solution that meets all th
 Say hello to droneShield.
 
 ## droneShield
+<img src="https://user-images.githubusercontent.com/72104254/171169294-3d556cac-ccf1-4b30-9806-515de5c29d10.jpeg" width="750" height="500">
 ### Background
 I was asked by my 2 lecturers at the university, Dr. Ariel Roth and Asi Barak, to choose a problem and find a solution to it. Which problem I want, in which way I want. I presented the problem to you, now I presented the solution:
 Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate the incendiary balloons.
@@ -110,6 +110,8 @@ BUT, GPS must be outside to access satellites, so for inside use – its preffer
 
 
 ## GroundStation:
+<img src="https://user-images.githubusercontent.com/72104254/171227222-9c5f6923-e0f5-46cf-8156-c09caf74724d.jpg" width="800" height="500">
+
 For the drone to communicate with the operator, some "channel" is needed. It can communicate via remote control, the droneShield can definitely be operated via remote control. But the problem with this communication channel is understandable - requires the operator to know how to fly a glider and as I noted - violates one of the 3 main principles by which I worked and made decisions. We said that the drone should be autonomous and not require any prior knowledge.
 2 programs are open source that include a very strong community and an insane amount of functionality.
 1. QgroundControl
@@ -118,6 +120,7 @@ For the drone to communicate with the operator, some "channel" is needed. It can
 Both are highly recommended. The first is more "clean" and intuitive so I chose to use it mainly, also attached to the Qgroundcontrol folder installation file, but if necessary I would recommend going into the QgroudControl or mission planner documentation
 
 ## Algorithms:
+
 In order for droneShield to be as autonomous as possible, I used state machine architecture. So I defined a situation state, where each one includes a target task and a "transition function". A combination of these is called state.
 The different states:
 1.	**Takeoff**: 
