@@ -125,10 +125,12 @@ I would reccomand using of carbon frame. From my experience, it really worth the
 #### **Flight Control (FC)**
 Is the control center of the drone. Meaning is the central hub that all the electronics component connect to.
 I'm use here Pixhawk, and I REALY recommend using it.
+
 <img src="https://user-images.githubusercontent.com/72104254/171284081-247d2717-dc65-42d0-aaf6-30c6e3f06753.png" width="280" height="380">
 
 #### **Companion computer**
 the fc is like small computer but not really – it control all the component but it doesn’t have computing power. So how can you use artificial intelligent like image processing with your drone? Simply – connect a companion computer (very small and thin computer) to your drone. droneShield makes use of raspberry pi 4b for the image processing and algorithms use. 
+
 <img src="https://user-images.githubusercontent.com/72104254/171284188-73b98d57-129b-453b-88d8-2d1a947fd74f.png" width="400" height="270">
 
 #### **ESC**
@@ -141,6 +143,7 @@ ESC's specs will tell you what types of lipos you can use with them (2-4s 30a me
 #### **RC_and_Telemetry**:	
 both of them are used to communicate data wirelessly with the drone. While Telemetry communication is bi directional, rc communication is unidirectional. 
 Telemetry is used for communicate with ground station. In our case – droneShield communicate with QGroundControl
+
    <img src="https://user-images.githubusercontent.com/72104254/171285896-dc0f9d33-5a12-43b4-b4f6-3c4d3d25a09c.png" width="200" height="240">
    
 #### **GPS_and_Optical_Flow**
@@ -156,6 +159,7 @@ There is 2 main pros for GPS that make my recommendation for the component for
 1.	Self adjusts its errors (example: if a gust of wind blows the drone off course, a new reading will simply show where the new location of the drone is on 3D space).
 2.	Cheap
 BUT, GPS must be outside to access satellites, so for inside use – its preffer to use optical flow.
+
 <img src="https://user-images.githubusercontent.com/72104254/171285855-c39c5fa1-074b-40e2-a3d1-511424a63ea7.png" width="190" height="250">
 
 #### **Laser**
