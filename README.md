@@ -5,12 +5,10 @@
 droneShield is a quadcopter that I designed and built all by myself.**
 
 1.  [General](#General)
--
     - [Background](#background)
     - [droneShield](#droneshield)
     - [Prolog](#Prolog)
 2. [Hardware](#Hardware)
--
     - [Motors](#Motors)
     - [Propellers](#Propellers)
     - [Battery](#Battery)
@@ -22,12 +20,10 @@ droneShield is a quadcopter that I designed and built all by myself.**
     - [GPS_and_Optical_Flow](#GPS_and_Optical_Flow)
     - [Laser](#Laser)
 3. [GroundStation](#GroundStation)
--
     - [QgroundControl](#QgroundControl)
     - [Mission_Planner](#Mission_Planner)
     - [Overall](#Overall)
 4. [Algorithms](#Algorithms)
--
     - [image_processing](#Mission_Planner)-
     - [state_machines](#state_machines)
          - [Waiting](#Waiting)
@@ -36,16 +32,11 @@ droneShield is a quadcopter that I designed and built all by myself.**
          - [Searching](#Searching)
          - [Detecting](#Detecting)
          - [Back](#Back)
-    
-    
 6. [Media](#Media)
--
-    - [Building_Photos](#Photos)
+    - [Building_Photos](https://github.com/eldar702/droneShield/tree/main/Video/Building_Photos)
     - [Bloopers](#Bloopers)
-    - [FINAL_VIDEO](#FINAL_VIDEO)
-    
+    - [FINAL_VIDEO](#FINAL_VIDEO) 
 7. [Dependencies](#Dependencies) 
-    -
 
 
 
