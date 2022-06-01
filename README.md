@@ -244,10 +244,10 @@ Transitions func: the “takeoff” state.
 Goal: reached the “home” point and landed there, waiting to execute the next mission.
 
 ## Media
-On the recommendation of my lecturer, I documented the [various stages of construction](https://github.com/eldar702/droneShield/blob/main/Video/Building_Photos/README.md),as well as [Bloopers](https://github.com/eldar702/droneShield/tree/main/Video/Bloopers) whos happend up the road. and even videos of my [first flight](https://github.com/eldar702/droneShield/blob/main/Video/Bloopers/first%20flight.mp4) and [second flight](https://github.com/eldar702/droneShield/blob/main/Video/Bloopers/second%20flight.mp4) :)
-And even one of my [first autonomous flights](), which ended hilarious 
+On the recommendation of my lecturer, I documented the [various stages of construction](https://github.com/eldar702/droneShield/blob/main/Video/Building_Photos/README.md),as well as [Bloopers](https://github.com/eldar702/droneShield/tree/main/Video/Bloopers) whos happend up the road. and even videos of my [first flight](https://www.youtube.com/shorts/rWjGpgpi1M0) and [second flight](https://www.youtube.com/shorts/i7E_WeZ5Nn4) :)
+And even one of my [first autonomous flights](https://www.youtube.com/watch?v=UYRIvbps6jE), which ended hilarious 
 
-And finally, after a long, instructive and intriguing journey - My final video.
+And finally, after a long, instructive and intriguing journey - [My final video](https://www.youtube.com/watch?v=eI0JDhAvPLg&t=13s).
 
 ## Dependencies
 * [Python 3.6+](https://www.python.org/downloads/)
