@@ -4,12 +4,12 @@
 **Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate incendiary balloons.
 droneShield is a quadcopter that I designed and built all by myself.**
 
-1.  [General](#General)
+# 1.  [General](#General)
     - [Background](#background)
     - [droneShield](#droneshield)
     - [Prolog](#Prolog)
     - [Architecture](#Architecture)
-2. [Hardware](#Hardware)
+# 2. [Hardware](#Hardware)
     - [Motors](#Motors)
     - [Propellers](#Propellers)
     - [Battery](#Battery)
@@ -20,11 +20,11 @@ droneShield is a quadcopter that I designed and built all by myself.**
     - [RC_and_Telemetry](#RC_and_Telemetry)
     - [GPS_and_Optical_Flow](#GPS_and_Optical_Flow)
     - [Laser](#Laser)
-3. [GroundStation](#GroundStation)
+# 3. [GroundStation](#GroundStation)
     - [QgroundControl](#QgroundControl)
     - [Mission_Planner](#Mission_Planner)
     - [Overall](#Overall)
-4. [Algorithms](#Algorithms)
+# 4. [Algorithms](#Algorithms)
     - [image_processing](#Mission_Planner)-
     - [state_machines](#state_machines)
          - [Waiting](#Waiting)
