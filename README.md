@@ -8,6 +8,7 @@ droneShield is a quadcopter that I designed and built all by myself.**
     - [Background](#background)
     - [droneShield](#droneshield)
     - [Prolog](#Prolog)
+    - [Architecture](#Architecture)
 2. [Hardware](#Hardware)
     - [Motors](#Motors)
     - [Propellers](#Propellers)
@@ -61,6 +62,10 @@ droneShield is a quadcopter that I designed and built myself.
 droneShield is fully powered from the groundstation.
 droneShield uses image processing to identify the balloons and uses state machine architecture to operate autonomously.
 In a nutshell - with the click of a droneShield button activated, it flies to an area marked on a map located on the groundstation, scans for incendiary balloons, and destroys them, using the build-in laser if it finds any. And if that is not enough, after the scan he returns to the starting point, where he will wait for further instructions.
+
+## Architecture
+<img src="https://user-images.githubusercontent.com/72104254/171357482-aff573f5-616d-4413-b7fb-471a80f1cfed.png" width="1000" height="400">
+
 
 # Hardware
 <img src="https://user-images.githubusercontent.com/72104254/171169896-b5397ded-3721-4c29-bd08-aa990861935f.jpg" width="450" height="400">
