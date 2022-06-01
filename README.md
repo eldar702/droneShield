@@ -122,6 +122,9 @@ I would recommend choosing a 500F frame
 2. Durability: plastic is to breakable. If it your first build of drone (as was for me) you are going to crash a lot of times. Too breakable frame will just be bad choice.
 I would reccomand using of carbon frame. From my experience, it really worth the extra dollars and extra weight. You can look in few crashes I had with 	droneShield in the [loopers folder](#Looper)
 
+<img src="https://user-images.githubusercontent.com/72104254/171409323-a1220e5f-d6be-4cc0-8800-63a152584de0.png" width="260" height="260">
+
+
 #### **Flight Control (FC)**
 Is the control center of the drone. Meaning is the central hub that all the electronics component connect to.
 I'm use here Pixhawk, and I REALY recommend using it.
