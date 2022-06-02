@@ -171,10 +171,7 @@ This is not a joke. Moreover - I recommend avoiding working with a laser.
 There are other solutions to the problem, and laser is the hardest and most dangerous of all.
 To be honest, as a computer science student I did not get involved in mechanical and electrical engineering, things that really interested me. The design and build of the drone "closed the corner" of the machines for me but not enough of the electricity.
 so I chose to add a laser.
-In any case, since this readme is of professional value, I will add a picture of the relevant electrical circuit:
-
-<img src="https://user-images.githubusercontent.com/72104254/171283872-dfc558cf-7cd2-44c1-9ef3-34d8a0e7a6e5.png" width="350" height="450">
-
+Don't do that too!
 
 ## GroundStation:
 <img src="https://user-images.githubusercontent.com/72104254/171227222-9c5f6923-e0f5-46cf-8156-c09caf74724d.jpg" width="1050" height="450">
