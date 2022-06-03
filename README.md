@@ -33,11 +33,11 @@ droneShield is a quadcopter that I designed and built all by myself.**
         - [Searching](#Searching)
         - [Detecting](#Detecting)
         - [Back](#Back)
-## 6. [Media](#Media)
+## 5. [Media](#Media)
    - [Building_Photos](https://github.com/eldar702/droneShield/tree/main/Video/Building_Photos)
    - [Bloopers](#Media)
    - [FINAL_VIDEO](https://www.youtube.com/watch?v=eI0JDhAvPLg&t=2s)
-## 7. [Dependencies](#Dependencies) 
+## 6. [Dependencies](#Dependencies) 
 
 
 
