@@ -181,40 +181,52 @@ There is no doubt that both are highly recommended. I prefer the first, which is
 In order for droneShield to be as autonomous as possible, I used state machine architecture. So I defined a situation state, where each one includes a target task and a "transition function". A combination of these is called state.
 The different states:
 
-### ** Waiting **
+### **Waiting**
 •	**Description**: Initial state when the drone is turned on. As droneShield waits for the user to click the suspected area, it is waiting for the user to click it.
+
 •	**Transitions func**: The takeoff state.
+
 •	**Goal**: start the party (not really, droneShield isn't a party animal, but he is loyal; he is waiting for user commands to begin).
 
 ### **Takeoff** 
 •	**Description**: Taking off is the first step in executing a given mission.
+
 •	**Transitions** func: reached the destination state.
+
 •	**Goal**: Attained the desired meters height.
 
 
 ###	**Reached**
 •	**Description**: Drones can be flown to any location you choose. A "desired location" is an area the user clicks on the map to suggest is the suspected area.
+
 •	**Transitions func**: Searching state.
+
 •	**Goal**: reached the given point.
 
 
 ###	**Searching**
 
 •	**Description**: Trying to find incendiary balloons.
+
 •	**Transitions func**: Detecting the current state and the previous state.
+
 •	**Goal**: Locate a balloon.
 
 
 ###	**Detecting**
 
 •	**Description**: When droneShield finds the balloon in the Searching state, it turns on the laser and makes sure that it has exploded.
+
 •	**Transitions func**: Searching and returning to the previous state.
+
 •	**Goal**: to blow up all balloons that had popped.
 
 ###	**Back**
 
 •	**Description**: Returning to the point where the drone took off.
+
 •	**Transitions func**: Entering "takeoff" state.
+
 •	**Goal**: Arrived at the "home" point and landed there to prepare for the next mission.
 
 
