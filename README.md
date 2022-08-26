@@ -1,8 +1,7 @@
 ![droneShield](https://user-images.githubusercontent.com/72104254/168979002-b660370d-bc6e-4410-b8e4-0f8d48daffaf.gif)
 
 
-**Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate incendiary balloons.
-droneShield is a quadcopter that I designed and built all by myself.**
+**Droneshield is a fully autonomous laser drone that works remotely, using its laser to eliminate incendiary balloons. The droneShield is a quadcopter that I built and designed entirely on my own.**
 
 ## 1.  [General](#General)
    - [Background](#background)
@@ -45,23 +44,13 @@ droneShield is a quadcopter that I designed and built all by myself.**
 <img src="https://user-images.githubusercontent.com/72104254/171228942-f92f020f-45a0-41a7-beea-6eb9b94bdb23.png" width="1050" height="400">
 
 ## Background
-In Israel, there is a problem, which causes the burning of thousands of dunams of Israeli territory - the problem of incendiary balloons.
-Terrorist organizations, and for the most Hamas organization, have found a patent: they tie explosive devices to helium balloons and inflate them from the West Bank to the State of Israel in general and the surrounding settlements in particular.
-The economic and safety damages are enormous: thousands of acres are burned each year and the safety of hundreds of thousands of residents of the affected envelope. The situation is absurd: balloons scare children instead of arousing the opposite emotion.
- There are several solutions: There are systems that use laser and blow up the incendiary balloons with a very high probability, but their price is so high and therefore dominates a few areas in the envelope. Another military solution is to use drones, but flying a drones requires prior knowledge and special training. Also - not everyone has the technological orientation for this. As a result - this solution, like the previous one, is marketed as B2G. That is to say again - this is a complicated solution that provides a partial solution - also that using soldiers to fly the drone is a historic pre-historic. There are a number of other solutions but they are just the "same thing in a different guise".
-So what - a computer science student can not create a solution that meets all three shortcomings that the other solutions fail to address? 
-Say hello to droneShield.
+It's no secret that Israel has a problem that causes thousands of dunams of Israeli territory to be burned every year - that problem is the problem of incendiary balloons. For the most part, terrorist organizations, including Hamas in particular, are using helium balloons to inflate explosive devices from the West Bank to the State of Israel in general and the surrounding settlements in particular. There is enormous economic and safety damage caused by these fires: hundreds of thousands of acres are burned every year, and the safety of hundreds of thousands of residents is at stake. As a result of this situation, balloons scare children instead of arousing the opposite response. There are a number of solutions available: Laser systems can be used to blow up incendiary balloons with a very high probability, but they are quite expensive, and thus dominate only a few areas of the envelope. It is also possible to use drones as a military solution, but piloting a drone requires prior knowledge and specialized training. There is also the issue that not everyone is technologically oriented. Therefore, this solution is marketed as a business-to-business solution, as was the previous one. As such, it should be noted once more that this is a complicated solution that could only provide a partial resolution - and that using soldiers to fly the drone is a historical practice that dates back thousands of years. It is worth noting that there are other solutions, but these are merely the "same thing disguised as another". So what if a student of computer science is unable to develop a solution that addresses all three shortcomings that other solutions are incapable of addressing? It's time to say hello to droneShield.
 
 # droneShield
 <img src="https://user-images.githubusercontent.com/72104254/171169294-3d556cac-ccf1-4b30-9806-515de5c29d10.jpeg" width="700" height="400">
 
 ## Prolog
-I was asked by my 2 lecturers at the university, Dr. Ariel Roth and Asi Barak, to choose a problem and find a solution to it. Which problem I want, in which way I want. I presented the problem to you, now I presented the solution:
-Droneshield is a fully autonomous laser drone, working from a groundcontrol and using its laser to eliminate an incendiary balloons.
-droneShield is a quadcopter that I designed and built myself.
-droneShield is fully powered from the groundstation.
-droneShield uses image processing to identify the balloons and uses state machine architecture to operate autonomously.
-In a nutshell - with the click of a droneShield button activated, it flies to an area marked on a map located on the groundstation, scans for incendiary balloons, and destroys them, using the build-in laser if it finds any. And if that is not enough, after the scan he returns to the starting point, where he will wait for further instructions.
+Professors Ariel Roth and Asi Barak asked me to come up with a problem and find a solution. It's up to me which problem I want to solve, and in what way I want to solve it. Now that you've seen the problem, here is the solution: Droneshield is a fully autonomous laser drone that operates from a ground control and uses its laser to eliminate incendiary balloons. Quadcopter droneShield is one of my own designs and builds. The droneShield is powered by the ground station. Image processing is used by droneShield to identify balloons and state machine architecture is used for autonomous operation. A droneShield is activated by clicking the button on the groundstation, and flies to an area marked on the map, scans for incendiary balloons, and destroys them if they are detected through the laser. When all that is not enough, he returns to the starting point and awaits further instructions after the scan.
 
 ## Architecture
 <img src="https://user-images.githubusercontent.com/72104254/171357482-aff573f5-616d-4413-b7fb-471a80f1cfed.png" width="1000" height="400">
@@ -70,7 +59,7 @@ In a nutshell - with the click of a droneShield button activated, it flies to an
 # Hardware
 <img src="https://user-images.githubusercontent.com/72104254/171169896-b5397ded-3721-4c29-bd08-aa990861935f.jpg" width="450" height="400">
 
-We will now scan all the components I have selected for the drone, as well as various considerations.
+As a starting point, I would like to present you with a copy of all the components and considerations that I have chosen for the drone.
 
 #### **Motors**:
 Perhaps one of the most important parts of a drone. There is a direct connection and tradeoff between speed and torque. The faster the motor, the less torque it produces.
@@ -116,11 +105,11 @@ The s': the number of lipo cells the battery contains. This is measured by digis
 <img src="https://user-images.githubusercontent.com/72104254/171285926-49537f80-ad33-4b7d-b8da-f94bb4b60b00.png" width="300" height="150">
 
 #### **Frame**:
-there is a lot of frames for drones, distinguish from one to other in size, shape and material. For building "custom big" drone, most of the guides in the 	   internet recommend using a 450F plastic frame. I think it is a bad choice because of two main reasons:
-1. Size – there is no enough space on frame of the drone, so it force you use the space to smart and in most cases just make it little harder to design.
-I would recommend choosing a 500F frame 
-2. Durability: plastic is to breakable. If it your first build of drone (as was for me) you are going to crash a lot of times. Too breakable frame will just be bad choice.
-I would reccomand using of carbon frame. From my experience, it really worth the extra dollars and extra weight. You can look in few crashes I had with 	droneShield in the [loopers folder](#Looper)
+Various types of drone frames exist, each with a different size, shape, and material. Most of the guides you can find on the internet recommend using 450F plastic frames when building "custom big" drones, according to most of the guides. This is not the best choice in my opinion. 
+I think there are two main reasons why:
+Size - there isn't enough space on the frame of the drone, so you're forced to use this space in a smart way and that makes designing the drone a little more difficult. Choosing a 500F frame would be a good option in my opinion.
+Durability: Plastic is too fragile. Especially if this is your first time building a drone (which it was for me), you're going to crash a lot. It is just a bad idea to choose a frame that is too breakable. The use of a carbon frame is highly recommended. As a matter of fact, it is worth the extra dollars and extra weight from my experience. You can see some crashes I've had with droneShield in the following video.
+[loopers folder](#Looper)
 
 <img src="https://user-images.githubusercontent.com/72104254/171409323-a1220e5f-d6be-4cc0-8800-63a152584de0.png" width="260" height="260">
 
@@ -166,30 +155,26 @@ BUT, GPS must be outside to access satellites, so for inside use – its preffer
 <img src="https://user-images.githubusercontent.com/72104254/171285855-c39c5fa1-074b-40e2-a3d1-511424a63ea7.png" width="190" height="250">
 
 #### **Laser**
-First and foremost, Working with laser is very dangerous, and requires working with appropriate protective equipment.
-This is not a joke. Moreover - I recommend avoiding working with a laser.
-There are other solutions to the problem, and laser is the hardest and most dangerous of all.
-To be honest, as a computer science student I did not get involved in mechanical and electrical engineering, things that really interested me. The design and build of the drone "closed the corner" of the machines for me but not enough of the electricity.
-so I chose to add a laser.
-Don't do that too!
+There is no doubt that working with lasers is a very dangerous undertaking, and therefore it is important to wear the appropriate protective equipment when working with them. There is no mistaking this for a joke. In addition, I recommend that you avoid working with lasers. Lasers are the hardest and most dangerous solution available to this problem.
+My passion for mechanical and electrical engineering was not sparked while I was studying computer science. I believe the design and build of the drone "closed the corner" on the machines for me, but it wasn't enough to close the electrical gap between the two machines.
+As a result, I decided to add a laser to the design.
 
 ## GroundStation:
 <img src="https://user-images.githubusercontent.com/72104254/171227222-9c5f6923-e0f5-46cf-8156-c09caf74724d.jpg" width="1050" height="450">
 
-For the drone to communicate with the operator, some "channel" is needed. It can communicate via remote control, the droneShield can definitely be operated via remote control. But the problem with this communication channel is understandable - requires the operator to know how to fly a glider and as I noted - violates one of the 3 main principles by which I worked and made decisions. We said that the drone should be autonomous and not require any prior knowledge.
-2 programs are open source that include a very strong community and an insane amount of functionality.
+The drone must be able to communicate with the operator via some form of "channel". The droneShield can communicate via remote control, and it is certainly capable of being operated via remote control. However, there is an obvious problem with this communication channel - the operator must have a working knowledge of glider flight and, as noted, this method violates one of the three main principles by which I create and make decisions. As we stated, you should be able to operate the drone autonomously without any prior experience. In addition, there are 2 open source programs which have a very strong community and provide an insane amount of functionality.
+
 ### QgroundControl
-QGroundControl (QGC) is an intuitive and powerful ground control station (GCS) for UAVs.
-The primary goal of QGC is ease of use for both first time and professional users. It provides full flight control and mission planning for any MAVLink enabled drone, and vehicle setup for both PX4 and ArduPilot powered UAVs. Instructions for using QGroundControl are provided in the User Manual (you may not need them because the UI is very intuitive!)
-Link to documentation: https://github.com/mavlink/qgroundcontrol
+A ground control station (GCS) for UAVs, QGroundControl (QGC), is a powerful and intuitive ground control station. A primary objective of QGC is to make it easy for users to use, whether they are first-time users or professionals. With it, you are able to control and plan flights for any drone equipped with MAVLink, as well as configure vehicles using both PX4 and ArduPilot technology. 
+In the User Manual you will find instructions for using QGroundControl, though you may not need them since the user interface is very intuitive. https://github.com/mavlink/qgroundcontrol
+
 
 ### Mission_Planner
-Mission Planner is a full-featured ground station application for the ArduPilot open source autopilot project. This page contains information on the background of Mission Planner and the organization of this site.
-Mission Planner is a ground control station for Plane, Copter and Rover. It is compatible with Windows only. Mission Planner can be used as a configuration utility or as a dynamic control supplement for your autonomous vehicle. Here are just a few things you can do with Mission Planner:
+ArduPilot's Mission Planner ground station application offers a full range of features for working with autopilots. On this page, you will find information about Mission Planner's background and how it is organized. There are three types of ground control stations: plane, helicopter, and rover. There is only a Windows version available. As a configuration tool or as a dynamic control supplement to your autonomous vehicle, Mission Planner can be used in a number of ways. The following are just a few of the things you can do with Mission Planner: 
 Link to documentation: https://ardupilot.org/planner/
 
 ### Overall 
-Both are highly recommended. The first is more "clean" and intuitive so I chose to use it mainly, also attached to the Qgroundcontrol folder installation file, but if necessary I would recommend going into the QgroudControl or mission planner documentation
+There is no doubt that both are highly recommended. I prefer the first, which is also attached to the installation file of the QgroundControl folder. If necessary, I would recommend consulting the documentation for QgroundControl or mission planner.
 
 ## Algorithms:
 <img src="https://user-images.githubusercontent.com/72104254/171230368-f63b18c1-05cb-4cd8-b1d1-bff4802220d8.png" width="1000" height="450">
@@ -197,55 +182,45 @@ In order for droneShield to be as autonomous as possible, I used state machine a
 The different states:
 
 ### ** Waiting **
-Description: initial state, when drone turn on. droneShield is waitnig grounded, waiting for the user to click where the suspected area is. 
-
-Transitions func: Takeoff state.
-
-Goal: to the party begins (not really, droneShield isn't a party guy, but he is really loyalty; waiting for user command to start).
+•	**Description**: Initial state when the drone is turned on. As droneShield waits for the user to click the suspected area, it is waiting for the user to click it.
+•	**Transitions func**: The takeoff state.
+•	**Goal**: start the party (not really, droneShield isn't a party animal, but he is loyal; he is waiting for user commands to begin).
 
 ### **Takeoff** 
+•	**Description**: Taking off is the first step in executing a given mission.
+•	**Transitions** func: reached the destination state.
+•	**Goal**: Attained the desired meters height.
 
-Description: start executing a given mission by takeoff.
-
-Transitions func: reached to location state.
-
-Goal: reached to desire meters height.
 
 ###	**Reached**
+•	**Description**: Drones can be flown to any location you choose. A "desired location" is an area the user clicks on the map to suggest is the suspected area.
+•	**Transitions func**: Searching state.
+•	**Goal**: reached the given point.
 
-Description: fly the drone to the desired location. “desire location”: is the suspected area, given by the user by clicking on the map.
-
-Transitions func: Searching state.
-
-Goal: reached the given point.
 
 ###	**Searching**
 
-Description: looking for incendiary balloons.
+•	**Description**: Trying to find incendiary balloons.
+•	**Transitions func**: Detecting the current state and the previous state.
+•	**Goal**: Locate a balloon.
 
-Transitions func: Detecting state and back state.
-
-Goal: found a balloon.
 
 ###	**Detecting**
 
-Description: After the balloons is found in the Searching state, droneShield will aim at it and turn on the laser and make sure the balloon has indeed exploded.
-
-Transitions func:  Searching state and back state.
-
-Goal: to blow all the balloons that had founded.
+•	**Description**: When droneShield finds the balloon in the Searching state, it turns on the laser and makes sure that it has exploded.
+•	**Transitions func**: Searching and returning to the previous state.
+•	**Goal**: to blow up all balloons that had popped.
 
 ###	**Back**
 
-Description: back to the point where the drone took off.
+•	**Description**: Returning to the point where the drone took off.
+•	**Transitions func**: Entering "takeoff" state.
+•	**Goal**: Arrived at the "home" point and landed there to prepare for the next mission.
 
-Transitions func: the “takeoff” state.
-
-Goal: reached the “home” point and landed there, waiting to execute the next mission.
 
 ## Media
 On the recommendation of my lecturer, I documented the [various stages of construction](https://github.com/eldar702/droneShield/blob/main/Video/Building_Photos/README.md),as well as [Bloopers](https://github.com/eldar702/droneShield/tree/main/Video/Bloopers) whos happend up the road. and even videos of my [first flight](https://www.youtube.com/watch?v=rWjGpgpi1M0) and [second flight](https://www.youtube.com/watch?v=i7E_WeZ5Nn4) :)
-And even one of my [first autonomous flights](https://www.youtube.com/watch?v=UYRIvbps6jE), which ended hilarious 
+And even one of my [first autonomous flights](https://www.youtube.com/watch?v=UYRIvbps6jE), which ended hilarious. 
 
 And finally, after a long, instructive and intriguing journey - [My final video](https://www.youtube.com/watch?v=eI0JDhAvPLg&t=13s).
 
