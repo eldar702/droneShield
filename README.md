@@ -24,7 +24,6 @@
    - [Mission_Planner](#Mission_Planner)
    - [Overall](#Overall)
 ## 4. [Algorithms](#Algorithms)
-   - [image_processing](#Mission_Planner)-
    - [state_machines](#state_machines)
         - [Waiting](#Waiting)
         - [Takeoff](#Takeoff)
